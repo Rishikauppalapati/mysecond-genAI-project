@@ -212,24 +212,40 @@ def detect_funds_in_query(query: str) -> list:
     return detected if detected else [None]
 
 
-def detect_data_type(query: str) -> str:
-    """Detect what data type user is asking about"""
+def detect_data_types(query: str) -> list:
+    """Detect all data types user is asking about (for multi-data queries)"""
     query_lower = query.lower()
+    data_types = []
     
     if any(word in query_lower for word in ['nav', 'net asset value']):
-        return 'NAV'
-    elif any(word in query_lower for word in ['sip', 'minimum investment', 'min sip']):
-        return 'MIN SIP'
-    elif any(word in query_lower for word in ['expense', 'expense ratio', 'ter']):
-        return 'expense_ratio'
-    elif any(word in query_lower for word in ['exit load', 'exit', 'redemption']):
-        return 'exit_load'
-    elif any(word in query_lower for word in ['risk', 'riskometer']):
-        return 'riskometer'
-    elif any(word in query_lower for word in ['benchmark']):
-        return 'benchmark'
+        data_types.append('NAV')
+    if any(word in query_lower for word in ['sip', 'minimum investment', 'min sip']):
+        data_types.append('MIN SIP')
+    if any(word in query_lower for word in ['expense', 'expense ratio', 'ter']):
+        data_types.append('expense_ratio')
+    if any(word in query_lower for word in ['exit load', 'exit', 'redemption']):
+        data_types.append('exit_load')
+    if any(word in query_lower for word in ['risk', 'riskometer']):
+        data_types.append('riskometer')
+    if any(word in query_lower for word in ['benchmark']):
+        data_types.append('benchmark')
     
-    return 'general'
+    return data_types if data_types else ['general']
+
+
+def detect_doc_types(query: str) -> list:
+    """Detect all document types user is asking about (for multi-doc queries)"""
+    query_lower = query.lower()
+    doc_types = []
+    
+    if 'kim' in query_lower:
+        doc_types.append('KIM')
+    if 'sid' in query_lower:
+        doc_types.append('SID')
+    if 'leaflet' in query_lower:
+        doc_types.append('Leaflet')
+    
+    return doc_types
 
 
 def is_document_query(query: str) -> bool:
@@ -313,34 +329,59 @@ def process_query(query: str, backend, csv_manager, docs, fund_data) -> list:
             'hide_last_updated': True
         }]
     
-    # Check if fund name is missing
+    # Detect funds
     funds = detect_funds_in_query(query)
     
-    # If no fund detected and query is about data (not documents), ask for clarification
-    if not funds[0] and not is_document_query(query):
-        data_keywords = ['nav', 'sip', 'expense', 'exit load', 'risk', 'minimum', 'benchmark']
-        if any(kw in query_lower for kw in data_keywords):
-            return [{
-                'answer': "Which mutual fund are you referring to? Please specify the fund name from: Axis Large Cap Fund, Axis Small Cap Fund, Axis Nifty 500 Index Fund, or Axis ELSS Tax Saver.",
-                'source_url': None,
-                'source_name': None,
-                'fund': None
-            }]
+    # Check for multi-document query (e.g., "KIM, SID, Leaflet for ELSS")
+    doc_types = detect_doc_types(query)
     
-    # Check if document query
-    if is_document_query(query):
+    # Handle multi-document query for single/multiple funds
+    if doc_types and funds[0]:
+        for fund in funds:
+            if not fund:
+                continue
+            
+            # Build multi-document response
+            doc_links = []
+            for doc_type in doc_types:
+                url = docs.get(fund, {}).get(doc_type, "")
+                if url and url.startswith("http"):
+                    doc_links.append(f"{doc_type}: {url}")
+            
+            if doc_types:
+                if len(doc_types) == 1:
+                    # Single document type
+                    url = docs.get(fund, {}).get(doc_types[0], "")
+                    if url and url.startswith("http"):
+                        responses.append({
+                            'answer': f"You can access the {doc_types[0]} here.",
+                            'source_url': url,
+                            'source_name': 'AxisMF.com',
+                            'fund': fund,
+                            'hide_last_updated': True
+                        })
+                else:
+                    # Multiple documents - list format
+                    answer_lines = [f"{fund}:", ""]
+                    for doc_type in doc_types:
+                        url = docs.get(fund, {}).get(doc_type, "")
+                        if url and url.startswith("http"):
+                            answer_lines.append(f"{doc_type}: {url}")
+                    
+                    responses.append({
+                        'answer': "\n".join(answer_lines),
+                        'source_url': None,
+                        'source_name': None,
+                        'fund': fund,
+                        'hide_last_updated': True
+                    })
+        return responses
+    
+    # Single document query
+    if is_document_query(query) and funds[0]:
         doc_type = 'KIM'
         if 'sid' in query_lower: doc_type = 'SID'
         elif 'leaflet' in query_lower: doc_type = 'Leaflet'
-        
-        # If no fund specified for document query, ask clarification
-        if not funds[0]:
-            return [{
-                'answer': f"Which fund's {doc_type} document would you like? Please specify the fund name.",
-                'source_url': None,
-                'source_name': None,
-                'fund': None
-            }]
         
         for fund in funds:
             if fund:
@@ -349,57 +390,111 @@ def process_query(query: str, backend, csv_manager, docs, fund_data) -> list:
                 responses.append(resp)
         return responses
     
-    # Regular data query
-    data_type = detect_data_type(query)
+    # If no fund detected and query is about data (not documents), ask for clarification
+    if not funds[0]:
+        data_keywords = ['nav', 'sip', 'expense', 'exit load', 'risk', 'minimum', 'benchmark']
+        if any(kw in query_lower for kw in data_keywords):
+            return [{
+                'answer': "Which mutual fund are you referring to? Please specify the fund name from: Axis Large Cap Fund, Axis Small Cap Fund, Axis Nifty 500 Index Fund, or Axis ELSS Tax Saver.",
+                'source_url': None,
+                'source_name': None,
+                'fund': None
+            }]
+        # Document query without fund
+        if is_document_query(query):
+            return [{
+                'answer': "Which fund's document would you like? Please specify the fund name.",
+                'source_url': None,
+                'source_name': None,
+                'fund': None
+            }]
+    
+    # Regular data query - handle multiple data types
+    data_types = detect_data_types(query)
     
     for fund in funds:
         if not fund:
             continue
+        
+        # Handle multiple data types for same fund
+        if len(data_types) > 1:
+            answer_lines = [f"{fund}:", ""]
+            for data_type in data_types:
+                url = csv_manager.get_source_for_answer(fund, data_type)
+                explicit_value = get_explicit_value(fund, data_type, fund_data)
+                
+                if data_type == 'NAV':
+                    nav_date = fund_data.get(fund, {}).get('NAV_Date', '')
+                    answer_lines.append(f"NAV: Rs.{explicit_value} (as of {nav_date})")
+                elif data_type == 'MIN SIP':
+                    answer_lines.append(f"Minimum SIP: Rs.{explicit_value}")
+                elif data_type == 'expense_ratio':
+                    answer_lines.append(f"Expense Ratio: {explicit_value}")
+                elif data_type == 'exit_load':
+                    answer_lines.append(f"Exit Load: {explicit_value}")
             
-        # Get from CSV first (highest priority)
-        url = csv_manager.get_source_for_answer(fund, data_type)
-        source_name = ""
-        if url:
-            source_name = "Groww.in" if "groww.in" in url else "AxisMF.com"
-        
-        # Get explicit value from structured data first
-        explicit_value = get_explicit_value(fund, data_type, fund_data)
-        
-        # Get answer from backend
-        full_query = f"{query} for {fund}" if fund not in query else query
-        resp = backend.process_query(full_query)
-        
-        # Override with CSV source if available
-        if url:
-            resp['source_url'] = url
-            resp['source_name'] = source_name
-        
-        # Use explicit value if available, otherwise use backend response
-        if explicit_value:
-            data_type_display = data_type.replace('_', ' ').title()
-            if data_type == 'NAV':
-                nav_date = fund_data.get(fund, {}).get('NAV_Date', '')
-                resp['answer'] = f"NAV is Rs.{explicit_value} (as of {nav_date})"
-            elif data_type == 'MIN SIP':
-                resp['answer'] = f"The minimum SIP amount is Rs.{explicit_value}."
-            elif data_type == 'expense_ratio':
-                resp['answer'] = f"The expense ratio is {explicit_value}."
-            elif data_type == 'exit_load':
-                resp['answer'] = f"The exit load details: {explicit_value}."
+            # Add source link for first data type
+            url = csv_manager.get_source_for_answer(fund, data_types[0])
+            source_name = "Groww.in" if url and "groww.in" in url else "AxisMF.com"
+            
+            last_updated = fund_data.get(fund, {}).get('last_updated', '')
+            if last_updated:
+                try:
+                    date_part = last_updated.split()[0:3]
+                    last_updated_str = ' '.join(date_part)
+                except:
+                    last_updated_str = last_updated
             else:
-                resp['answer'] = f"The {data_type_display} is {explicit_value}."
-        
-        # Add last_updated from fund data
-        last_updated = fund_data.get(fund, {}).get('last_updated', '')
-        if last_updated:
-            try:
-                date_part = last_updated.split()[0:3]
-                resp['last_updated'] = ' '.join(date_part)
-            except:
-                resp['last_updated'] = last_updated
-        
-        resp['fund'] = fund
-        responses.append(resp)
+                last_updated_str = ""
+            
+            responses.append({
+                'answer': "\n".join(answer_lines),
+                'source_url': url,
+                'source_name': source_name,
+                'fund': fund,
+                'last_updated': last_updated_str
+            })
+        else:
+            # Single data type
+            data_type = data_types[0]
+            url = csv_manager.get_source_for_answer(fund, data_type)
+            source_name = ""
+            if url:
+                source_name = "Groww.in" if "groww.in" in url else "AxisMF.com"
+            
+            explicit_value = get_explicit_value(fund, data_type, fund_data)
+            
+            full_query = f"{query} for {fund}" if fund not in query else query
+            resp = backend.process_query(full_query)
+            
+            if url:
+                resp['source_url'] = url
+                resp['source_name'] = source_name
+            
+            if explicit_value:
+                data_type_display = data_type.replace('_', ' ').title()
+                if data_type == 'NAV':
+                    nav_date = fund_data.get(fund, {}).get('NAV_Date', '')
+                    resp['answer'] = f"NAV is Rs.{explicit_value} (as of {nav_date})"
+                elif data_type == 'MIN SIP':
+                    resp['answer'] = f"The minimum SIP amount is Rs.{explicit_value}."
+                elif data_type == 'expense_ratio':
+                    resp['answer'] = f"The expense ratio is {explicit_value}."
+                elif data_type == 'exit_load':
+                    resp['answer'] = f"The exit load details: {explicit_value}."
+                else:
+                    resp['answer'] = f"The {data_type_display} is {explicit_value}."
+            
+            last_updated = fund_data.get(fund, {}).get('last_updated', '')
+            if last_updated:
+                try:
+                    date_part = last_updated.split()[0:3]
+                    resp['last_updated'] = ' '.join(date_part)
+                except:
+                    resp['last_updated'] = last_updated
+            
+            resp['fund'] = fund
+            responses.append(resp)
     
     return responses
 
