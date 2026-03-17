@@ -571,7 +571,7 @@ def main():
     # Fund Documents - Dropdown style
     with st.expander("📄 Fund Documents"):
         for fund, links in docs.items():
-            st.markdown(f"**{fund}**")
+            st.markdown(f'<p style="color: #ffffff; font-weight: 700; font-size: 1.1rem; margin: 1.5rem 0 0.75rem 0;">{fund}</p>', unsafe_allow_html=True)
             cols = st.columns(3)
             for i, (doc_type, icon) in enumerate([("KIM", "📄"), ("SID", "📋"), ("Leaflet", "📑")]):
                 with cols[i]:
