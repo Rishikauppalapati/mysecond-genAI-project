@@ -91,76 +91,96 @@ def load_document_links():
 
 
 def load_css():
-    """Load CSS"""
+    """Load CSS - Dark Theme"""
     st.markdown("""
     <style>
     #MainMenu, footer, header, .stDeployButton {display: none !important;}
-    .main, .stApp {background: #f0f2f5 !important;}
-    .block-container {padding: 1rem !important; max-width: 800px !important;}
     
+    /* Dark background for entire app */
+    .main, .stApp {background: #1a1a2e !important;}
+    .block-container {padding: 1rem !important; max-width: 800px !important; background: #1a1a2e !important;}
+    
+    /* App Header - Light text on dark */
     .app-header {text-align: center; padding: 0.5rem 0;}
-    .app-header h1 {color: #1a1a1a; font-size: 1.75rem; font-weight: 600; margin: 0 0 0.25rem 0;}
-    .app-header p {color: #666; font-size: 0.9rem; margin: 0;}
+    .app-header h1 {color: #ffffff; font-size: 1.75rem; font-weight: 600; margin: 0 0 0.25rem 0;}
+    .app-header p {color: #b8b8d1; font-size: 0.9rem; margin: 0;}
     
-    /* Disclaimer - Orange warning style */
-    .disclaimer {background: #fff8e1; border-left: 4px solid #ff9800; padding: 0.75rem 1rem; 
-                 border-radius: 0 8px 8px 0; margin: 1rem 0; font-size: 0.85rem; color: #e65100;}
-    .disclaimer strong {color: #f57c00;}
+    /* Disclaimer - Dark orange warning */
+    .disclaimer {background: #2d2d44; border-left: 4px solid #ff9800; padding: 0.75rem 1rem; 
+                 border-radius: 0 8px 8px 0; margin: 1rem 0; font-size: 0.85rem; color: #ffb74d;}
+    .disclaimer strong {color: #ff9800;}
     
-    /* Available Funds Section */
-    .funds-box {background: white; border-radius: 12px; padding: 1.25rem; margin-bottom: 1rem; border: 1px solid #e0e0e0;}
-    .funds-box h4 {margin: 0 0 0.75rem 0; color: #333; font-size: 1rem; display: flex; align-items: center; gap: 0.5rem;}
-    .funds-box p {color: #666; font-size: 0.9rem; margin: 0 0 0.75rem 0;}
+    /* Available Funds Section - Dark card */
+    .funds-box {background: #252542; border-radius: 12px; padding: 1.25rem; margin-bottom: 1rem; border: 1px solid #3a3a5c;}
+    .funds-box h4 {margin: 0 0 0.75rem 0; color: #ffffff; font-size: 1rem; display: flex; align-items: center; gap: 0.5rem;}
+    .funds-box p {color: #b8b8d1; font-size: 0.9rem; margin: 0 0 0.75rem 0;}
     .fund-tags {display: flex; flex-wrap: wrap; gap: 0.5rem;}
-    .fund-tag {background: #e3f2fd; color: #1976d2; padding: 0.4rem 0.9rem; border-radius: 20px; font-size: 0.85rem; border: none;}
+    .fund-tag {background: #667eea; color: #ffffff; padding: 0.4rem 0.9rem; border-radius: 20px; font-size: 0.85rem; border: none;}
     
+    /* Suggestions */
     .suggestions {display: flex; gap: 0.75rem; margin: 1rem 0; flex-wrap: wrap;}
+    .suggestions-title {color: #b8b8d1; font-size: 0.9rem; margin-bottom: 0.5rem; text-align: center;}
     
-    .suggestions-title {color: #666; font-size: 0.9rem; margin-bottom: 0.5rem; text-align: center;}
-    
+    /* Chat Messages - Dark theme */
     .msg {display: flex; margin: 0.75rem 0; align-items: flex-start;}
     .msg-avatar {width: 28px; height: 28px; border-radius: 6px; display: flex; align-items: center; 
                  justify-content: center; font-size: 0.85rem; margin-right: 0.5rem; flex-shrink: 0;}
-    .msg-avatar.user {background: #e0e0e0;}
+    .msg-avatar.user {background: #4a4a6a; color: #ffffff;}
     .msg-avatar.bot {background: #00c853; color: white;}
-    .msg-content {background: white; padding: 0.75rem 1rem; border-radius: 12px; font-size: 0.9rem; 
-                  line-height: 1.5; max-width: 85%; border: 1px solid #e0e0e0;}
-    .msg-content.user {background: #e3f2fd; border-color: #bbdefb;}
+    .msg-content {background: #252542; color: #ffffff; padding: 0.75rem 1rem; border-radius: 12px; font-size: 0.9rem; 
+                  line-height: 1.5; max-width: 85%; border: 1px solid #3a3a5c;}
+    .msg-content.user {background: #667eea; border-color: #5a6fd6; color: #ffffff;}
     .msg-source {margin-top: 0.5rem; font-size: 0.8rem;}
-    .msg-source a {color: #1976d2; text-decoration: none;}
-    .msg-source a:hover {text-decoration: underline;}
-    .msg-time {margin-top: 0.25rem; font-size: 0.75rem; color: #999;}
+    .msg-source a {color: #64b5f6; text-decoration: none;}
+    .msg-source a:hover {text-decoration: underline; color: #90caf9;}
+    .msg-time {margin-top: 0.25rem; font-size: 0.75rem; color: #8888a8;}
     
-    .chat-box {background: white; border-radius: 12px; padding: 1rem; margin: 1rem 0; 
-               border: 1px solid #e0e0e0; min-height: 200px; max-height: 400px; overflow-y: auto;}
+    /* Chat box - Dark */
+    .chat-box {background: #252542; border-radius: 12px; padding: 1rem; margin: 1rem 0; 
+               border: 1px solid #3a3a5c; min-height: 200px; max-height: 400px; overflow-y: auto;}
     
-    .stButton>button {border-radius: 8px !important; font-size: 0.85rem !important;}
+    /* Buttons - Dark theme */
+    .stButton>button {border-radius: 8px !important; font-size: 0.85rem !important; background: #667eea !important; color: white !important; border: none !important;}
+    .stButton>button:hover {background: #5a6fd6 !important;}
     
-    /* Fund Documents Section - Fixed styling */
-    .fund-docs {background: white; border-radius: 12px; padding: 1.25rem; margin-bottom: 1rem; border: 1px solid #e0e0e0;}
-    .fund-docs h4 {margin: 0 0 0.5rem 0; color: #333; font-size: 1rem; display: flex; align-items: center; gap: 0.5rem;}
-    .fund-docs .subtitle {color: #666; font-size: 0.85rem; margin: 0 0 1rem 0;}
-    .fund-docs .fund-name {font-size: 0.9rem; font-weight: 500; color: #333; margin: 1rem 0 0.5rem 0;}
+    /* Fund Documents Section - Dark */
+    .fund-docs {background: #252542; border-radius: 12px; padding: 1.25rem; margin-bottom: 1rem; border: 1px solid #3a3a5c;}
+    .fund-docs h4 {margin: 0 0 0.5rem 0; color: #ffffff; font-size: 1rem; display: flex; align-items: center; gap: 0.5rem;}
+    .fund-docs .subtitle {color: #b8b8d1; font-size: 0.85rem; margin: 0 0 1rem 0;}
+    .fund-docs .fund-name {font-size: 0.9rem; font-weight: 500; color: #ffffff; margin: 1rem 0 0.5rem 0;}
     .fund-docs .fund-name:first-of-type {margin-top: 0;}
     
-    /* Document buttons - White text on blue background */
-    .doc-btn {padding: 0.6rem 1rem; background: #1976d2; color: #ffffff !important; border: none; border-radius: 8px; 
+    /* Document buttons - Purple/blue gradient style */
+    .doc-btn {padding: 0.6rem 1rem; background: #667eea; color: #ffffff !important; border: none; border-radius: 8px; 
               font-size: 0.85rem; cursor: pointer; text-align: center; text-decoration: none; display: inline-block;
               font-weight: 500;}
-    .doc-btn:hover {background: #1565c0; color: #ffffff !important;}
+    .doc-btn:hover {background: #5a6fd6; color: #ffffff !important;}
     .doc-btn:visited {color: #ffffff !important;}
-    .doc-btn.disabled {background: #e0e0e0; color: #999 !important; cursor: not-allowed;}
+    .doc-btn.disabled {background: #3a3a5c; color: #666688 !important; cursor: not-allowed;}
     
-    /* Input styling */
+    /* Input styling - Dark */
     .stTextInput > div > div > input {
         border: 2px solid #667eea !important;
         border-radius: 25px !important;
         padding: 0.75rem 1.25rem !important;
         font-size: 0.95rem !important;
-        background: white !important;
+        background: #252542 !important;
+        color: #ffffff !important;
     }
+    .stTextInput > div > div > input::placeholder {color: #8888a8 !important;}
     
-    .streamlit-expanderHeader {font-size: 0.9rem !important; font-weight: 600 !important;}
+    /* Expander - Dark theme */
+    .streamlit-expanderHeader {font-size: 0.9rem !important; font-weight: 600 !important; color: #ffffff !important; background: #252542 !important; border-radius: 8px !important;}
+    .streamlit-expanderContent {background: #1a1a2e !important; border: 1px solid #3a3a5c !important; border-radius: 0 0 8px 8px !important;}
+    
+    /* Divider - Dark */
+    hr {border-color: #3a3a5c !important;}
+    
+    /* Scrollbar - Dark */
+    ::-webkit-scrollbar {width: 8px;}
+    ::-webkit-scrollbar-track {background: #1a1a2e;}
+    ::-webkit-scrollbar-thumb {background: #4a4a6a; border-radius: 4px;}
+    ::-webkit-scrollbar-thumb:hover {background: #5a5a7a;}
     </style>
     """, unsafe_allow_html=True)
 
