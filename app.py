@@ -169,12 +169,14 @@ def load_css():
     }
     .stTextInput > div > div > input::placeholder {color: #8888a8 !important;}
     
-    /* Expander - Very light gray background for Fund Documents */
-    [data-testid="stExpander"] summary {color: #ffffff !important; font-weight: 600 !important; font-size: 0.9rem !important;}
+    /* Expander - Dark background for Fund Documents */
+    [data-testid="stExpander"] {background: #252542 !important; border-radius: 8px !important; border: 1px solid #3a3a5c !important;}
+    [data-testid="stExpander"] summary {color: #ffffff !important; font-weight: 600 !important; font-size: 0.9rem !important; background: #252542 !important;}
     [data-testid="stExpander"] summary p {color: #ffffff !important;}
+    [data-testid="stExpander"] summary:hover {background: #2d2d50 !important;}
     .streamlit-expanderHeader {color: #ffffff !important;}
     .streamlit-expanderHeader p {color: #ffffff !important;}
-    .streamlit-expanderContent {background: #f5f5fa !important; border: 1px solid #d0d0e0 !important; border-top: none !important; border-radius: 0 0 8px 8px !important;}
+    .streamlit-expanderContent {background: #1a1a2e !important; border: 1px solid #3a3a5c !important; border-top: none !important; border-radius: 0 0 8px 8px !important;}
     
     /* Divider - Dark */
     hr {border-color: #3a3a5c !important;}
