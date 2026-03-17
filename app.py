@@ -125,7 +125,7 @@ def load_css():
     .msg {display: flex; margin: 0.75rem 0; align-items: flex-start;}
     .msg-avatar {width: 28px; height: 28px; border-radius: 6px; display: flex; align-items: center; 
                  justify-content: center; font-size: 0.85rem; margin-right: 0.5rem; flex-shrink: 0;}
-    .msg-avatar.user {background: #4a4a6a; color: #ffffff;}
+    .msg-avatar.user {background: #6a6a8a; color: #ffffff;}
     .msg-avatar.bot {background: #00c853; color: white;}
     .msg-content {background: #252542; color: #ffffff; padding: 0.75rem 1rem; border-radius: 12px; font-size: 0.9rem; 
                   line-height: 1.5; max-width: 85%; border: 1px solid #3a3a5c;}
