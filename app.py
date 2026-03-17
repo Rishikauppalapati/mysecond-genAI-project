@@ -98,13 +98,17 @@ def load_css():
     .app-header h1 {color: #1a1a1a; font-size: 1.75rem; font-weight: 600; margin: 0 0 0.25rem 0;}
     .app-header p {color: #666; font-size: 0.9rem; margin: 0;}
     
-    .disclaimer {background: #fff3e0; border-left: 4px solid #ff9800; padding: 0.75rem 1rem; 
-                 border-radius: 0 8px 8px 0; margin: 1rem 0; font-size: 0.8rem; color: #e65100;}
+    /* Disclaimer - Orange warning style */
+    .disclaimer {background: #fff8e1; border-left: 4px solid #ff9800; padding: 0.75rem 1rem; 
+                 border-radius: 0 8px 8px 0; margin: 1rem 0; font-size: 0.85rem; color: #e65100;}
+    .disclaimer strong {color: #f57c00;}
     
-    .funds-box {background: white; border-radius: 12px; padding: 1rem; margin-bottom: 1rem; border: 1px solid #e0e0e0;}
-    .funds-box h4 {margin: 0 0 0.5rem 0; color: #333; font-size: 0.95rem;}
+    /* Available Funds Section */
+    .funds-box {background: white; border-radius: 12px; padding: 1.25rem; margin-bottom: 1rem; border: 1px solid #e0e0e0;}
+    .funds-box h4 {margin: 0 0 0.75rem 0; color: #333; font-size: 1rem; display: flex; align-items: center; gap: 0.5rem;}
+    .funds-box p {color: #666; font-size: 0.9rem; margin: 0 0 0.75rem 0;}
     .fund-tags {display: flex; flex-wrap: wrap; gap: 0.5rem;}
-    .fund-tag {background: #e3f2fd; color: #1976d2; padding: 0.3rem 0.75rem; border-radius: 20px; font-size: 0.8rem;}
+    .fund-tag {background: #e3f2fd; color: #1976d2; padding: 0.4rem 0.9rem; border-radius: 20px; font-size: 0.85rem; border: none;}
     
     .suggestions {display: flex; gap: 0.75rem; margin: 1rem 0; flex-wrap: wrap;}
     
@@ -128,13 +132,28 @@ def load_css():
     
     .stButton>button {border-radius: 8px !important; font-size: 0.85rem !important;}
     
-    .fund-docs {background: white; border-radius: 12px; padding: 1rem; margin-bottom: 1rem; border: 1px solid #e0e0e0;}
-    .fund-docs h4 {margin: 0 0 0.75rem 0; color: #333; font-size: 0.95rem;}
-    .doc-grid {display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.5rem;}
-    .doc-btn {padding: 0.5rem; background: #1976d2; color: white; border: none; border-radius: 8px; 
-              font-size: 0.8rem; cursor: pointer; text-align: center; text-decoration: none; display: block;}
-    .doc-btn:hover {background: #1565c0;}
-    .doc-btn.disabled {background: #e0e0e0; color: #999; cursor: not-allowed;}
+    /* Fund Documents Section - Fixed styling */
+    .fund-docs {background: white; border-radius: 12px; padding: 1.25rem; margin-bottom: 1rem; border: 1px solid #e0e0e0;}
+    .fund-docs h4 {margin: 0 0 0.5rem 0; color: #333; font-size: 1rem; display: flex; align-items: center; gap: 0.5rem;}
+    .fund-docs .subtitle {color: #666; font-size: 0.85rem; margin: 0 0 1rem 0;}
+    .fund-docs .fund-name {font-size: 0.9rem; font-weight: 500; color: #333; margin: 1rem 0 0.5rem 0;}
+    .fund-docs .fund-name:first-of-type {margin-top: 0;}
+    
+    /* Document buttons - White text on blue background */
+    .doc-btn {padding: 0.6rem 1rem; background: #1976d2; color: #ffffff !important; border: none; border-radius: 8px; 
+              font-size: 0.85rem; cursor: pointer; text-align: center; text-decoration: none; display: inline-block;
+              font-weight: 500;}
+    .doc-btn:hover {background: #1565c0; color: #ffffff !important;}
+    .doc-btn:visited {color: #ffffff !important;}
+    .doc-btn.disabled {background: #e0e0e0; color: #999 !important; cursor: not-allowed;}
+    
+    /* Input styling */
+    .stTextInput>div>div>input {border: 2px solid #e0e0e0 !important; border-radius: 8px !important; padding: 0.75rem !important;}
+    .stTextInput>div>div>input:focus {border-color: #1976d2 !important; box-shadow: 0 0 0 2px rgba(25, 118, 210, 0.2) !important;}
+    
+    /* Send button */
+    .stButton>button[kind="primary"] {background: #ff5252 !important; border: none !important;}
+    .stButton>button[kind="primary"]:hover {background: #ff1744 !important;}
     </style>
     """, unsafe_allow_html=True)
 
@@ -323,6 +342,31 @@ def process_query(query: str, backend, csv_manager, docs, fund_data) -> list:
     return responses
 
 
+def handle_suggestion_click(suggestion: str):
+    """Handle suggestion button click - process immediately"""
+    backend = st.session_state.backend
+    csv_manager = st.session_state.csv_manager
+    docs = st.session_state.docs
+    fund_data = st.session_state.fund_data
+    
+    # Add user message
+    st.session_state.chat_history.append({'role': 'user', 'content': suggestion})
+    
+    # Process query immediately
+    responses = process_query(suggestion, backend, csv_manager, docs, fund_data)
+    
+    # Add bot responses
+    for resp in responses:
+        st.session_state.chat_history.append({
+            'role': 'bot',
+            'content': resp['answer'],
+            'source_url': resp.get('source_url'),
+            'source_name': resp.get('source_name'),
+            'fund': resp.get('fund'),
+            'last_updated': resp.get('last_updated')
+        })
+
+
 def main():
     """Main app"""
     load_css()
@@ -336,49 +380,50 @@ def main():
     # Header
     st.markdown('<div class="app-header"><h1>📊 Welcome to FundWise AI</h1><p>Your Mutual Fund Assistant for Axis Funds</p></div>', unsafe_allow_html=True)
     
-    # Disclaimer
-    st.markdown('<div class="disclaimer"><strong>⚠️ Disclaimer:</strong> This chatbot provides information only. Not SEBI registered. No investment advice.</div>', unsafe_allow_html=True)
+    # Disclaimer - Updated format
+    st.markdown('<div class="disclaimer"><strong>⚠️ Disclaimer:</strong> This chatbot provides factual information only, not investment advice. Please consult a SEBI-registered financial advisor before investing.</div>', unsafe_allow_html=True)
     
-    # Funds box
-    st.markdown('<div class="funds-box"><h4>Supported Funds:</h4><div class="fund-tags">' + 
+    # Available Funds Section - Updated format
+    st.markdown('<div class="funds-box"><h4>📋 Available Funds 🔗</h4><p>Get instant answers about NAV, Expense Ratio, Minimum SIP, Risk Level, and Benchmark.</p><div class="fund-tags">' + 
                 ''.join([f'<span class="fund-tag">{f}</span>' for f in ALL_FUNDS]) + 
                 '</div></div>', unsafe_allow_html=True)
     
-    # Fund Documents section
-    st.markdown('<div class="fund-docs"><h4>📄 Fund Documents</h4><p style="font-size:0.8rem;color:#666;margin-bottom:0.75rem;">Click to view official documents:</p>', unsafe_allow_html=True)
-    
-    for fund in ALL_FUNDS:
-        st.markdown(f"<p style='font-size:0.85rem;margin:0.5rem 0 0.25rem 0;font-weight:500;'>{fund}</p>", unsafe_allow_html=True)
-        doc_cols = st.columns(3)
-        fund_docs = docs.get(fund, {})
+    # Fund Documents section - Fixed styling
+    with st.container():
+        st.markdown("#### 📄 Fund Documents")
+        st.markdown("<p style='color:#666;font-size:0.85rem;margin-bottom:1rem;'>Click to view official documents:</p>", unsafe_allow_html=True)
         
-        for idx, (doc_type, icon) in enumerate([('KIM', '📋'), ('SID', '📄'), ('Leaflet', '📑')]):
-            with doc_cols[idx]:
-                url = fund_docs.get(doc_type, "")
-                if url and url.startswith("http"):
-                    st.markdown(f'<a href="{url}" target="_blank" class="doc-btn">{icon} {doc_type}</a>', unsafe_allow_html=True)
-                else:
-                    st.markdown(f'<button class="doc-btn disabled" disabled>{icon} {doc_type}</button>', unsafe_allow_html=True)
+        for fund in ALL_FUNDS:
+            st.markdown(f"<p style='font-size:0.9rem;font-weight:500;color:#333;margin:0.75rem 0 0.5rem 0;'>{fund}</p>", unsafe_allow_html=True)
+            doc_cols = st.columns(3)
+            fund_docs = docs.get(fund, {})
+            
+            for idx, (doc_type, icon) in enumerate([('KIM', '📋'), ('SID', '📄'), ('Leaflet', '📑')]):
+                with doc_cols[idx]:
+                    url = fund_docs.get(doc_type, "")
+                    if url and url.startswith("http"):
+                        # Use st.link_button for proper clickable buttons
+                        st.link_button(f"{icon} {doc_type}", url, use_container_width=True)
+                    else:
+                        st.button(f"{icon} {doc_type}", disabled=True, use_container_width=True)
     
     st.divider()
     
-    # Suggestions with heading
+    # Suggestions with heading - Fixed functionality
     st.markdown('<p class="suggestions-title">💡 Ask AI About Your Funds</p>', unsafe_allow_html=True)
-    st.markdown('<div class="suggestions">', unsafe_allow_html=True)
-    cols = st.columns(3)
+    
     suggestions = [
         "What is the NAV of Axis Large Cap Fund?",
         "Show me the expense ratio of all funds",
         "What is the minimum SIP for Axis ELSS?"
     ]
     
+    sugg_cols = st.columns(3)
     for i, suggestion in enumerate(suggestions):
-        with cols[i]:
+        with sugg_cols[i]:
             if st.button(suggestion, key=f"sugg_{i}", use_container_width=True):
-                st.session_state.current_input = suggestion
+                handle_suggestion_click(suggestion)
                 st.rerun()
-    
-    st.markdown('</div>', unsafe_allow_html=True)
     
     # Messages
     for msg in st.session_state.chat_history:
@@ -390,26 +435,21 @@ def main():
             last_updated = f'<div class="msg-time">Last updated: {msg.get("last_updated", "")}</div>' if msg.get('last_updated') else ""
             st.markdown(f'<div class="msg"><div class="msg-avatar bot">🤖</div><div class="msg-content">{fund_label}<strong>Answer:</strong> {msg["content"]}{src}{last_updated}</div></div>', unsafe_allow_html=True)
     
-    # Input with dynamic key for clearing
+    # Input with visible border
     c1, c2 = st.columns([6, 1])
     with c1:
-        current_input = st.session_state.get('current_input', '')
-        inp = st.text_input("Msg", key=f"inp_{st.session_state.input_key}", 
-                           value=current_input, 
+        inp = st.text_input("Message", key=f"inp_{st.session_state.input_key}", 
                            placeholder="Type your question...", 
                            label_visibility="collapsed")
-        if current_input:
-            st.session_state.current_input = ''
     with c2:
-        send = st.button("➤", key="snd", type="primary")
+        send = st.button("➤", key="snd", type="primary", use_container_width=True)
     
     if send and inp:
         # Add user message
         st.session_state.chat_history.append({'role': 'user', 'content': inp})
         
         # Process query (supports multi-fund)
-        with st.spinner(''):
-            responses = process_query(inp, backend, csv_manager, docs, fund_data)
+        responses = process_query(inp, backend, csv_manager, docs, fund_data)
         
         # Add bot responses
         for resp in responses:
