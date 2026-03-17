@@ -77,7 +77,7 @@ def load_document_links():
             docs["Axis ELSS Tax Saver"]["SID"] = str(row.iloc[9]).strip() if pd.notna(row.iloc[9]) else ""
         
         # Leaflet row (index 10) - columns 0,3,6,9
-        if len(df) > 10:
+        if len(df) >= 11:
             row = df.iloc[10]
             docs["Axis Large Cap Fund"]["Leaflet"] = str(row.iloc[0]).strip() if pd.notna(row.iloc[0]) else ""
             docs["Axis Small Cap Fund"]["Leaflet"] = str(row.iloc[3]).strip() if pd.notna(row.iloc[3]) else ""
