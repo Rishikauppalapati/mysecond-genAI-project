@@ -1,0 +1,850 @@
+{
+  "chunks": [
+    {
+      "chunk_id": "98b8e021-f514-4220-815e-223181579528",
+      "fund_name": "Axis Small Cap Fund",
+      "data_type": "MIN_SIP",
+      "content": "The minimum SIP amount for Axis Small Cap Fund is ₹100.",
+      "source_url": "https://groww.in/mutual-funds/axis-small-cap-fund-direct-growth",
+      "source_domain": "groww.in",
+      "last_updated": "2026-03-17T12:29:23.750399",
+      "metadata": {
+        "raw_value": "₹100"
+      }
+    },
+    {
+      "chunk_id": "0fa58750-289a-4437-b042-96151f5f3bd0",
+      "fund_name": "Axis Small Cap Fund",
+      "data_type": "EXPENSE_RATIO",
+      "content": "The expense ratio of Axis Small Cap Fund is 0.61%.",
+      "source_url": "https://groww.in/mutual-funds/axis-small-cap-fund-direct-growth",
+      "source_domain": "groww.in",
+      "last_updated": "2026-03-17T12:29:23.750399",
+      "metadata": {
+        "raw_value": "0.61%"
+      }
+    },
+    {
+      "chunk_id": "cd355e4c-fbdd-41a0-ad82-14fad6582b28",
+      "fund_name": "Axis Small Cap Fund",
+      "data_type": "EXIT_LOAD",
+      "content": "The exit load for Axis Small Cap Fund: Exit loada fee payable to a mutual fund house for exiting a fund (fully or partially) before the completion of a specified period from the date of investment.",
+      "source_url": "https://groww.in/mutual-funds/axis-small-cap-fund-direct-growth",
+      "source_domain": "groww.in",
+      "last_updated": "2026-03-17T12:29:23.750399",
+      "metadata": {
+        "raw_value": "Exit loada fee payable to a mutual fund house for exiting a fund (fully or partially) before the completion of a specified period from the date of investment"
+      }
+    },
+    {
+      "chunk_id": "5974de16-5d13-4166-a427-ac8487d17b77",
+      "fund_name": "Axis Nifty 500 Index Fund",
+      "data_type": "MIN_SIP",
+      "content": "The minimum SIP amount for Axis Nifty 500 Index Fund is ₹100.",
+      "source_url": "https://groww.in/mutual-funds/axis-nifty-500-index-fund-direct-growth",
+      "source_domain": "groww.in",
+      "last_updated": "2026-03-17T12:29:28.369783",
+      "metadata": {
+        "raw_value": "₹100"
+      }
+    },
+    {
+      "chunk_id": "70004eef-97b7-413a-a72f-79fd94b3c599",
+      "fund_name": "Axis Nifty 500 Index Fund",
+      "data_type": "EXPENSE_RATIO",
+      "content": "The expense ratio of Axis Nifty 500 Index Fund is 0.10%.",
+      "source_url": "https://groww.in/mutual-funds/axis-nifty-500-index-fund-direct-growth",
+      "source_domain": "groww.in",
+      "last_updated": "2026-03-17T12:29:28.369783",
+      "metadata": {
+        "raw_value": "0.10%"
+      }
+    },
+    {
+      "chunk_id": "f8918b64-efa2-4ef6-ace4-fc00e4568d89",
+      "fund_name": "Axis Nifty 500 Index Fund",
+      "data_type": "EXIT_LOAD",
+      "content": "The exit load for Axis Nifty 500 Index Fund: Exit loada fee payable to a mutual fund house for exiting a fund (fully or partially) before the completion of a specified period from the date of investment.",
+      "source_url": "https://groww.in/mutual-funds/axis-nifty-500-index-fund-direct-growth",
+      "source_domain": "groww.in",
+      "last_updated": "2026-03-17T12:29:28.369783",
+      "metadata": {
+        "raw_value": "Exit loada fee payable to a mutual fund house for exiting a fund (fully or partially) before the completion of a specified period from the date of investment"
+      }
+    },
+    {
+      "chunk_id": "8c188954-8657-4d30-8c71-85cfeafc9bad",
+      "fund_name": "Axis ELSS Tax Saver",
+      "data_type": "MIN_SIP",
+      "content": "The minimum SIP amount for Axis ELSS Tax Saver is ₹500.",
+      "source_url": "https://groww.in/mutual-funds/axis-elss-tax-saver-direct-plan-growth",
+      "source_domain": "groww.in",
+      "last_updated": "2026-03-17T12:29:32.801667",
+      "metadata": {
+        "raw_value": "₹500"
+      }
+    },
+    {
+      "chunk_id": "2ab0a868-3dc7-442e-acb5-459582e5c84a",
+      "fund_name": "Axis ELSS Tax Saver",
+      "data_type": "EXPENSE_RATIO",
+      "content": "The expense ratio of Axis ELSS Tax Saver is 0.84%.",
+      "source_url": "https://groww.in/mutual-funds/axis-elss-tax-saver-direct-plan-growth",
+      "source_domain": "groww.in",
+      "last_updated": "2026-03-17T12:29:32.801667",
+      "metadata": {
+        "raw_value": "0.84%"
+      }
+    },
+    {
+      "chunk_id": "d1e1a8bf-dc01-4b0e-b684-82a46c5aaa07",
+      "fund_name": "Axis ELSS Tax Saver",
+      "data_type": "EXIT_LOAD",
+      "content": "The exit load for Axis ELSS Tax Saver: Exit loada fee payable to a mutual fund house for exiting a fund (fully or partially) before the completion of a specified period from the date of investment.",
+      "source_url": "https://groww.in/mutual-funds/axis-elss-tax-saver-direct-plan-growth",
+      "source_domain": "groww.in",
+      "last_updated": "2026-03-17T12:29:32.801667",
+      "metadata": {
+        "raw_value": "Exit loada fee payable to a mutual fund house for exiting a fund (fully or partially) before the completion of a specified period from the date of investment"
+      }
+    },
+    {
+      "chunk_id": "f384d9f6-ec4e-42ee-b37c-395d9a4adc37",
+      "fund_name": "Axis Large Cap Fund",
+      "data_type": "MIN_SIP",
+      "content": "The minimum SIP amount for Axis Large Cap Fund is ₹100.",
+      "source_url": "https://groww.in/mutual-funds/axis-large-cap-fund-direct-growth",
+      "source_domain": "groww.in",
+      "last_updated": "2026-03-17T12:29:37.816550",
+      "metadata": {
+        "raw_value": "₹100"
+      }
+    },
+    {
+      "chunk_id": "1a1d93fb-f530-4d82-9fe9-e7d4e1b7cad9",
+      "fund_name": "Axis Large Cap Fund",
+      "data_type": "EXPENSE_RATIO",
+      "content": "The expense ratio of Axis Large Cap Fund is 0.74%.",
+      "source_url": "https://groww.in/mutual-funds/axis-large-cap-fund-direct-growth",
+      "source_domain": "groww.in",
+      "last_updated": "2026-03-17T12:29:37.816550",
+      "metadata": {
+        "raw_value": "0.74%"
+      }
+    },
+    {
+      "chunk_id": "bc402f16-7582-4430-b729-e38e8534041b",
+      "fund_name": "Axis Large Cap Fund",
+      "data_type": "EXIT_LOAD",
+      "content": "The exit load for Axis Large Cap Fund: Exit loada fee payable to a mutual fund house for exiting a fund (fully or partially) before the completion of a specified period from the date of investment.",
+      "source_url": "https://groww.in/mutual-funds/axis-large-cap-fund-direct-growth",
+      "source_domain": "groww.in",
+      "last_updated": "2026-03-17T12:29:37.816550",
+      "metadata": {
+        "raw_value": "Exit loada fee payable to a mutual fund house for exiting a fund (fully or partially) before the completion of a specified period from the date of investment"
+      }
+    },
+    {
+      "chunk_id": "14430241-7ffa-4b34-8d05-955a0d097f28",
+      "fund_name": "Axis Small Cap Fund",
+      "data_type": "RISKOMETER",
+      "content": "Axis Small Cap Fund has a Very High risk level.",
+      "source_url": "https://www.axismf.com/mutual-funds/equity-funds/axis-small-cap-fund/sc-dg/direct",
+      "source_domain": "axismf.com",
+      "last_updated": "2026-03-17T12:29:40.917895",
+      "metadata": {
+        "risk_level": "Very High"
+      }
+    },
+    {
+      "chunk_id": "7d1a792c-7b0c-4eb9-8158-fc63b5c002a4",
+      "fund_name": "Axis Small Cap Fund",
+      "data_type": "BENCHMARK",
+      "content": "The benchmark for Axis Small Cap Fund is Nifty Smallcap 250 TRI).Strong Investor BaseWith 16,52,448 Active Investors and 7,97,712 Active SIPs in July, the fund demonstrates strong investor confidence and a robust investor base.Data as on 31st July 2025Cost-EfficiencyIt has a relatively lower expense ratio of 0.57% (Direct Plan as on 31st July 2025), ensuring that a larger portion of your investment is put to work.Expert ManagementThe fund follows a bottom-up stock selection approach, focusing on scalable and asset-light business models, which are key to thriving in the small-cap space.Source: Total Expense Ratio (TER) is as on 31st July 2025 for Axis Smallcap Fund - Direct Plan. The TER of the Scheme is subject to change at the discretion of AMC within the limits specified in Scheme Information Document. Investors are requested to visit Axis Mutual Fund website to view the current TER of the Scheme at the time of investmentsAn open ended equity scheme predominantly investing in small cap stocksInvestment ObjectiveTo generate long-term capital appreciation from a diversified portfolio of predominantly equity equity related instruments of small cap companies.Benefits of Bottom up approach to investing in small caps aimed at identifying long term businessesAim to generate alpha with a diversified portfolio of stocksBuild a portfolio keeping in mind risk and reward by containing mistakes and navigating volatile stock movementsIdeal for small cap investors who can patiently invest and those willing to absorb short term volatilityInvestment horizon of 5 years or moreFund ManagerMr. Tejas ShethManaging this fund since 06th May 202422YearsWork ExperienceSee all schemes managed by Tejas ShethMr. Mayank HyankiManaging this fund since 24th Aug 202316YearsWork ExperienceSee all schemes managed by Mayank HyankiMs. Krishnaa NManaging this fund since 01th Mar 20246YearsWork ExperienceSee all schemes managed by Krishnaa NEntry LoadNAExit LoadIf redeemed switched-out within 12 months from the date of allotment:For 10% of investments: NIL. For remaining investments: 1%.If redeemed switched-out after 12 months from the date of allotment: NIL. Statistical Measures (3 Years)Standard Deviation14.50%Beta0.71Sharpe Ratio 0.88Portfolio Turnover(1 Year)0.38 timesDisclaimer: Risk-free rate assumed to be 5.17% (MIBOR as on 27-02-2026) - Source: www.fimmda.org. Computed for the 3-yr period ended February 27, 2026. Based on month-end NAV.Updated as on: This product is suitable for investors who are seeking Capital appreciation over long term.Investment in a diversified portfolio predominantly consisting of equity and equity related instruments of small cap companies Investors should consult their financial advisers if in doubt about whether the product is suitable for themAxis Small Cap FundThe risk of the scheme is Very HighNIFTY Smallcap 250 TRIThe risk of the benchmark is Very HighMinimum Investment AmountLumpsum Investment : ₹ 100Additional Investment : ₹ 100Goal PlanningBig or small, everyone has goals that they want to accomplish. There are some goals you re able to fulfil and others that you re not. With proper planning a lot of this can be managed..",
+      "source_url": "https://www.axismf.com/mutual-funds/equity-funds/axis-small-cap-fund/sc-dg/direct",
+      "source_domain": "axismf.com",
+      "last_updated": "2026-03-17T12:29:40.917895",
+      "metadata": {
+        "benchmark": "– Nifty Smallcap 250 TRI).Strong Investor BaseWith 16,52,448 Active Investors  and 7,97,712 Active SIPs in July, the fund demonstrates strong investor confidence and a robust investor base.Data as on 31st July 2025Cost-EfficiencyIt has a relatively lower expense ratio of  0.57% (Direct Plan as on 31st July 2025), ensuring that a larger portion of your investment is put to work.Expert ManagementThe fund follows a bottom-up stock selection approach, focusing on scalable and asset-light business models, which are key to thriving in the small-cap space.Source: Total Expense Ratio (TER) is as on 31st July 2025 for Axis Smallcap Fund - Direct Plan. The TER of the Scheme is subject to change at the discretion of AMC within the limits specified in Scheme Information Document. Investors are requested to visit Axis Mutual Fund website to view the current TER of the Scheme at the time of investmentsAn open ended equity scheme predominantly investing in small cap stocksInvestment ObjectiveTo generate long-term capital appreciation from a diversified portfolio of predominantly equity & equity related instruments of small cap companies.Benefits of Bottom up approach to investing in small caps aimed at identifying long term businessesAim to generate alpha with a diversified portfolio of stocksBuild a portfolio keeping in mind risk and reward by containing mistakes and navigating volatile stock movementsIdeal for small cap investors who can patiently invest and those willing to absorb short term volatilityInvestment horizon of 5 years or moreFund ManagerMr. Tejas ShethManaging this fund since 06th May 202422YearsWork ExperienceSee all schemes managed by Tejas ShethMr. Mayank HyankiManaging this fund since 24th Aug 202316YearsWork ExperienceSee all schemes managed by Mayank HyankiMs. Krishnaa NManaging this fund since 01th Mar 20246YearsWork ExperienceSee all schemes managed by Krishnaa NEntry LoadNAExit LoadIf redeemed / switched-out within 12 months from the date of allotment:For 10% of investments: NIL. For remaining investments: 1%.If redeemed / switched-out after 12 months from the date of allotment: NIL. Statistical Measures (3 Years)Standard Deviation14.50%Beta0.71Sharpe Ratio**0.88Portfolio Turnover(1 Year)0.38 timesDisclaimer: **Risk-free rate assumed to be 5.17% (MIBOR as on 27-02-2026) - Source: www.fimmda.org.  Computed for the 3-yr period ended February 27, 2026. Based on month-end NAV.Updated as on: This product is suitable for investors who are seeking*Capital appreciation over long term.Investment in a diversified portfolio predominantly consisting of equity and equity related instruments of small cap companies*Investors should consult their financial advisers if in doubt about whether the product is suitable for themAxis Small Cap FundThe risk of the scheme is Very HighNIFTY Smallcap 250 TRIThe risk of the benchmark is Very HighMinimum Investment AmountLumpsum Investment : ₹ 100Additional Investment : ₹ 100Goal PlanningBig or small, everyone has goals that they want to accomplish. There are some goals you’re able to fulfil and others that you’re not. With proper planning a lot of this can be managed."
+      }
+    },
+    {
+      "chunk_id": "733a1f8e-18a6-4206-9c17-009a75b82868",
+      "fund_name": "Axis Small Cap Fund",
+      "data_type": "FAQ",
+      "content": "Q: What is Axis Small Cap Fund A: Small cap funds are equity funds that invest in companies with a market capitalization of Rs. 500 crores or less. These funds are like large cap funds and mid cap funds both who invest a majority of their investible corpus in large cap and mid cap companies respectively. Axis Small Cap Fund is an open-ended equity scheme predominantly investing in small cap stocks. The investment objective of this equity scheme is to generate long-term capital appreciation from a diversified portfolio of predominantly equity equity related instruments of small cap companies.",
+      "source_url": "https://www.axismf.com/mutual-funds/equity-funds/axis-small-cap-fund/sc-dg/direct",
+      "source_domain": "axismf.com",
+      "last_updated": "2026-03-17T12:29:40.917895",
+      "metadata": {
+        "faq_index": 0,
+        "question": "What is Axis Small Cap Fund",
+        "answer": "Small cap funds are equity funds that invest in companies with a market capitalization of Rs. 500 crores or less. These funds are like large cap funds and mid cap funds both who invest a majority of their investible corpus in large cap and mid cap companies respectively. Axis Small Cap Fund is an open-ended equity scheme predominantly investing in small cap stocks. The investment objective of this equity scheme is to generate long-term capital appreciation from a diversified portfolio of predominantly equity equity related instruments of small cap companies."
+      }
+    },
+    {
+      "chunk_id": "b1d52c0f-0dd9-4ad8-986b-abb6fe0f4d77",
+      "fund_name": "Axis Small Cap Fund",
+      "data_type": "FAQ",
+      "content": "Q: What is Axis Small Cap Fund A: Small cap funds are equity funds that invest in companies with a market capitalization of Rs. 500 crores or less. These funds are like large cap funds and mid cap funds both who invest a majority of their investible corpus in large cap and mid cap companies respectively. Axis Small Cap Fund is an open-ended equity scheme predominantly investing in small cap stocks. The investment objective of this equity scheme is to generate long-term capital appreciation from a diversified portfolio of predominantly equity equity related instruments of small cap companies.",
+      "source_url": "https://www.axismf.com/mutual-funds/equity-funds/axis-small-cap-fund/sc-dg/direct",
+      "source_domain": "axismf.com",
+      "last_updated": "2026-03-17T12:29:40.917895",
+      "metadata": {
+        "faq_index": 1,
+        "question": "What is Axis Small Cap Fund",
+        "answer": "Small cap funds are equity funds that invest in companies with a market capitalization of Rs. 500 crores or less. These funds are like large cap funds and mid cap funds both who invest a majority of their investible corpus in large cap and mid cap companies respectively. Axis Small Cap Fund is an open-ended equity scheme predominantly investing in small cap stocks. The investment objective of this equity scheme is to generate long-term capital appreciation from a diversified portfolio of predominantly equity equity related instruments of small cap companies."
+      }
+    },
+    {
+      "chunk_id": "2e33b625-edd3-4270-9839-aacc5e99082a",
+      "fund_name": "Axis Small Cap Fund",
+      "data_type": "FAQ",
+      "content": "Q: Benefits of Axis Small Cap Mutual Fund A: Axis Small Cap Fund offers these benefits for retail investors:This small cap fund offers a bottom up approach to investing in small caps aimed at identifying long term businessesAxis Small Cap Fund aims to generate alpha with a diversified portfolio of stocksThis equity mutual fund scheme builds a portfolio keeping in mind risk and reward by containing mistakes and navigating volatile stock movementsAxis Small Cap Fund might be ideal for small cap investors who can patiently invest and those willing to absorb short term volatilityThis scheme can also be considered by investors with an investment horizon of 5 years or more",
+      "source_url": "https://www.axismf.com/mutual-funds/equity-funds/axis-small-cap-fund/sc-dg/direct",
+      "source_domain": "axismf.com",
+      "last_updated": "2026-03-17T12:29:40.917895",
+      "metadata": {
+        "faq_index": 2,
+        "question": "Benefits of Axis Small Cap Mutual Fund",
+        "answer": "Axis Small Cap Fund offers these benefits for retail investors:This small cap fund offers a bottom up approach to investing in small caps aimed at identifying long term businessesAxis Small Cap Fund aims to generate alpha with a diversified portfolio of stocksThis equity mutual fund scheme builds a portfolio keeping in mind risk and reward by containing mistakes and navigating volatile stock movementsAxis Small Cap Fund might be ideal for small cap investors who can patiently invest and those willing to absorb short term volatilityThis scheme can also be considered by investors with an investment horizon of 5 years or more"
+      }
+    },
+    {
+      "chunk_id": "dc28f55a-f35d-4be2-b4dc-e0136d03fc4e",
+      "fund_name": "Axis Small Cap Fund",
+      "data_type": "FAQ",
+      "content": "Q: How does Axis Small Cap fund work A: Axis Small Cap Fund works pretty much like any other equity mutual fund scheme. This small cap fund invests a majority of its investible corpus in equity and equity related instruments of companies with small market capitalization. The scheme may invest the remaining corpus in other money market instruments in accordance with the scheme s investment objective.The Asset Management Company running a small cap fund collects money from investors sharing a common investment objective and the fund manager invests this accumulated sum across the small cap sector. In exchange, the investors receive units in accordance with the scheme s existing Net Asset Value (NAV). The NAV of the scheme may vary based on the mid cap scheme s overall performance. Axis Small Cap Fund invests in stocks of small cap companies that have growth potential and can offer long term earnings to investors.",
+      "source_url": "https://www.axismf.com/mutual-funds/equity-funds/axis-small-cap-fund/sc-dg/direct",
+      "source_domain": "axismf.com",
+      "last_updated": "2026-03-17T12:29:40.917895",
+      "metadata": {
+        "faq_index": 3,
+        "question": "How does Axis Small Cap fund work",
+        "answer": "Axis Small Cap Fund works pretty much like any other equity mutual fund scheme. This small cap fund invests a majority of its investible corpus in equity and equity related instruments of companies with small market capitalization. The scheme may invest the remaining corpus in other money market instruments in accordance with the scheme s investment objective.The Asset Management Company running a small cap fund collects money from investors sharing a common investment objective and the fund manager invests this accumulated sum across the small cap sector. In exchange, the investors receive units in accordance with the scheme s existing Net Asset Value (NAV). The NAV of the scheme may vary based on the mid cap scheme s overall performance. Axis Small Cap Fund invests in stocks of small cap companies that have growth potential and can offer long term earnings to investors."
+      }
+    },
+    {
+      "chunk_id": "8cb62217-f6bb-40dd-a824-43b051e5c75e",
+      "fund_name": "Axis Small Cap Fund",
+      "data_type": "FAQ",
+      "content": "Q: What type of fund is Small Cap Fund A: Equity mutual funds can be largely categorized based on market cap. Large cap, mid cap, and small cap funds are the different types of equity funds each of whom taps into companies belonging to specific market capitalization. Axis Small Cap Fund is an equity mutual fund that specifically targets credible stocks of companies with small market capitalization. This equity fund is different than a large cap, mid cap, or multi cap fund each of which possesses unique traits.",
+      "source_url": "https://www.axismf.com/mutual-funds/equity-funds/axis-small-cap-fund/sc-dg/direct",
+      "source_domain": "axismf.com",
+      "last_updated": "2026-03-17T12:29:40.917895",
+      "metadata": {
+        "faq_index": 4,
+        "question": "What type of fund is Small Cap Fund",
+        "answer": "Equity mutual funds can be largely categorized based on market cap. Large cap, mid cap, and small cap funds are the different types of equity funds each of whom taps into companies belonging to specific market capitalization. Axis Small Cap Fund is an equity mutual fund that specifically targets credible stocks of companies with small market capitalization. This equity fund is different than a large cap, mid cap, or multi cap fund each of which possesses unique traits."
+      }
+    },
+    {
+      "chunk_id": "4e7c371f-d019-4b85-a5ca-5527d61b1145",
+      "fund_name": "Axis Small Cap Fund",
+      "data_type": "FAQ",
+      "content": "Q: Who should invest in Axis Small Cap Fund A: Small Cap Funds are ideal for aggressive investors who have very high-risk appetite and long time horizon to invest.",
+      "source_url": "https://www.axismf.com/mutual-funds/equity-funds/axis-small-cap-fund/sc-dg/direct",
+      "source_domain": "axismf.com",
+      "last_updated": "2026-03-17T12:29:40.917895",
+      "metadata": {
+        "faq_index": 5,
+        "question": "Who should invest in Axis Small Cap Fund",
+        "answer": "Small Cap Funds are ideal for aggressive investors who have very high-risk appetite and long time horizon to invest."
+      }
+    },
+    {
+      "chunk_id": "47239ab4-0509-4f2f-a200-f09ddcef6372",
+      "fund_name": "Axis Small Cap Fund",
+      "data_type": "FAQ",
+      "content": "Q: What is the minimum investment required for the Axis Small Cap Fund A: Minimum investment required for Axis Small Cap Fund is Rs. 100 and in multiples of Re. 1 - thereafter.",
+      "source_url": "https://www.axismf.com/mutual-funds/equity-funds/axis-small-cap-fund/sc-dg/direct",
+      "source_domain": "axismf.com",
+      "last_updated": "2026-03-17T12:29:40.917895",
+      "metadata": {
+        "faq_index": 6,
+        "question": "What is the minimum investment required for the Axis Small Cap Fund",
+        "answer": "Minimum investment required for Axis Small Cap Fund is Rs. 100 and in multiples of Re. 1 - thereafter."
+      }
+    },
+    {
+      "chunk_id": "527df0db-ee27-4c44-8360-5707cd22eaf0",
+      "fund_name": "Axis Small Cap Fund",
+      "data_type": "FAQ",
+      "content": "Q: How does the Small Cap Fund fit into an investment portfolio A: Small Cap Fund can form an integral part of your mutual fund portfolio if you have a long term investment horizon. Small Cap Fund invest at least 65% of their portfolio in small cap stocks.",
+      "source_url": "https://www.axismf.com/mutual-funds/equity-funds/axis-small-cap-fund/sc-dg/direct",
+      "source_domain": "axismf.com",
+      "last_updated": "2026-03-17T12:29:40.917895",
+      "metadata": {
+        "faq_index": 7,
+        "question": "How does the Small Cap Fund fit into an investment portfolio",
+        "answer": "Small Cap Fund can form an integral part of your mutual fund portfolio if you have a long term investment horizon. Small Cap Fund invest at least 65% of their portfolio in small cap stocks."
+      }
+    },
+    {
+      "chunk_id": "4ba5309f-eec2-4e7a-81f3-74f9f7014874",
+      "fund_name": "Axis Small Cap Fund",
+      "data_type": "FAQ",
+      "content": "Q: How to invest in the Axis Small Cap Fund A: You can invest in the Axis Small Cap Fund directly from the Axis Mutual Fund website. You can also invest through platforms like MF Central and MF Utility.",
+      "source_url": "https://www.axismf.com/mutual-funds/equity-funds/axis-small-cap-fund/sc-dg/direct",
+      "source_domain": "axismf.com",
+      "last_updated": "2026-03-17T12:29:40.917895",
+      "metadata": {
+        "faq_index": 8,
+        "question": "How to invest in the Axis Small Cap Fund",
+        "answer": "You can invest in the Axis Small Cap Fund directly from the Axis Mutual Fund website. You can also invest through platforms like MF Central and MF Utility."
+      }
+    },
+    {
+      "chunk_id": "0226276e-ecd4-48fc-b665-3f573e0f1382",
+      "fund_name": "Axis Small Cap Fund",
+      "data_type": "FAQ",
+      "content": "Q: What are the Risks associated with investing in the Axis Small Cap Fund A: All equity mutual funds, including the Axis Small Cap Fund, carry investment risk. Small-cap funds are considered riskier than large-cap funds because of market volatility and economic fluctuations.",
+      "source_url": "https://www.axismf.com/mutual-funds/equity-funds/axis-small-cap-fund/sc-dg/direct",
+      "source_domain": "axismf.com",
+      "last_updated": "2026-03-17T12:29:40.917895",
+      "metadata": {
+        "faq_index": 9,
+        "question": "What are the Risks associated with investing in the Axis Small Cap Fund",
+        "answer": "All equity mutual funds, including the Axis Small Cap Fund, carry investment risk. Small-cap funds are considered riskier than large-cap funds because of market volatility and economic fluctuations."
+      }
+    },
+    {
+      "chunk_id": "caab74b8-ba92-400d-bbeb-b5758f5d845d",
+      "fund_name": "Axis Nifty 500 Index Fund",
+      "data_type": "RISKOMETER",
+      "content": "Axis Nifty 500 Index Fund has a Very High risk level.",
+      "source_url": "https://www.axismf.com/mutual-funds/index-funds/axis-nifty-500-index-fund/nf-dg/direct",
+      "source_domain": "axismf.com",
+      "last_updated": "2026-03-17T12:29:41.650511",
+      "metadata": {
+        "risk_level": "Very High"
+      }
+    },
+    {
+      "chunk_id": "43b30ac3-237c-46c0-b7fc-41303f070c11",
+      "fund_name": "Axis Nifty 500 Index Fund",
+      "data_type": "BENCHMARK",
+      "content": "The benchmark for Axis Nifty 500 Index Fund is is Very HighMinimum Investment AmountLumpsum Investment : ₹ 100Additional Investment : ₹ 100Underlying Index DetailsIndex Methodology - Click hereIndex Constituents - Click hereIndex Historical Changes - Click hereGoal PlanningBig or small, everyone has goals that they want to accomplish. There are some goals you re able to fulfil and others that you re not. With proper planning a lot of this can be managed..",
+      "source_url": "https://www.axismf.com/mutual-funds/index-funds/axis-nifty-500-index-fund/nf-dg/direct",
+      "source_domain": "axismf.com",
+      "last_updated": "2026-03-17T12:29:41.650511",
+      "metadata": {
+        "benchmark": "is Very HighMinimum Investment AmountLumpsum Investment : ₹ 100Additional Investment : ₹ 100Underlying Index DetailsIndex Methodology -  Click hereIndex Constituents -  Click hereIndex Historical Changes -  Click hereGoal PlanningBig or small, everyone has goals that they want to accomplish. There are some goals you’re able to fulfil and others that you’re not. With proper planning a lot of this can be managed."
+      }
+    },
+    {
+      "chunk_id": "1f602f49-179c-4b59-8f1a-40c89e9ee519",
+      "fund_name": "Axis Nifty 500 Index Fund",
+      "data_type": "FAQ",
+      "content": "Q: Past performance may or may not sustain in future. A: Unlike active funds where managers pick and choose stocks in hopes of outperforming the market, this passive index fund mirrors the Nifty 500 Index which consists of India s top 500 most liquid stocks as closely as possible. This results in lower costs, clearer transparency, and more predictable investment outcomes for you.",
+      "source_url": "https://www.axismf.com/mutual-funds/index-funds/axis-nifty-500-index-fund/nf-dg/direct",
+      "source_domain": "axismf.com",
+      "last_updated": "2026-03-17T12:29:41.650511",
+      "metadata": {
+        "faq_index": 0,
+        "question": "Past performance may or may not sustain in future.",
+        "answer": "Unlike active funds where managers pick and choose stocks in hopes of outperforming the market, this passive index fund mirrors the Nifty 500 Index which consists of India s top 500 most liquid stocks as closely as possible. This results in lower costs, clearer transparency, and more predictable investment outcomes for you."
+      }
+    },
+    {
+      "chunk_id": "bbdc7f45-93e4-453d-a342-3f8e5c236705",
+      "fund_name": "Axis Nifty 500 Index Fund",
+      "data_type": "FAQ",
+      "content": "Q: What is the Nifty 500 Index and how does it reflect in India economy A: The Nifty 500 Index covers the top 500 largest most liquid companies listed on India s NSE, including large, mid, and small caps from all major sectors across like banking, technology, energy, power, services, automobile consumer goods and many more . By investing in Nifty 500 Index, your money grows with a broad spectrum of India s businesses, capturing the overall strength and growth potential of the Indian economy.",
+      "source_url": "https://www.axismf.com/mutual-funds/index-funds/axis-nifty-500-index-fund/nf-dg/direct",
+      "source_domain": "axismf.com",
+      "last_updated": "2026-03-17T12:29:41.650511",
+      "metadata": {
+        "faq_index": 1,
+        "question": "What is the Nifty 500 Index and how does it reflect in India economy",
+        "answer": "The Nifty 500 Index covers the top 500 largest most liquid companies listed on India s NSE, including large, mid, and small caps from all major sectors across like banking, technology, energy, power, services, automobile consumer goods and many more . By investing in Nifty 500 Index, your money grows with a broad spectrum of India s businesses, capturing the overall strength and growth potential of the Indian economy."
+      }
+    },
+    {
+      "chunk_id": "0f71df5e-ee6c-4672-959a-4b07aa0a3156",
+      "fund_name": "Axis Nifty 500 Index Fund",
+      "data_type": "FAQ",
+      "content": "Q: What is the Nifty 500 Index and how does it reflect in India economy A: The Nifty 500 Index covers the top 500 largest most liquid companies listed on India s NSE, including large, mid, and small caps from all major sectors across like banking, technology, energy, power, services, automobile consumer goods and many more . By investing in Nifty 500 Index, your money grows with a broad spectrum of India s businesses, capturing the overall strength and growth potential of the Indian economy.",
+      "source_url": "https://www.axismf.com/mutual-funds/index-funds/axis-nifty-500-index-fund/nf-dg/direct",
+      "source_domain": "axismf.com",
+      "last_updated": "2026-03-17T12:29:41.650511",
+      "metadata": {
+        "faq_index": 2,
+        "question": "What is the Nifty 500 Index and how does it reflect in India economy",
+        "answer": "The Nifty 500 Index covers the top 500 largest most liquid companies listed on India s NSE, including large, mid, and small caps from all major sectors across like banking, technology, energy, power, services, automobile consumer goods and many more . By investing in Nifty 500 Index, your money grows with a broad spectrum of India s businesses, capturing the overall strength and growth potential of the Indian economy."
+      }
+    },
+    {
+      "chunk_id": "af51f394-a01a-4c5a-b956-c4c31907e4eb",
+      "fund_name": "Axis Nifty 500 Index Fund",
+      "data_type": "FAQ",
+      "content": "Q: What is the Axis Nifty 500 Index Fund A: Axis Nifty 500 Index Fund is an open-endedpassive mutual fund schemethat directly invests in the top 500 companies making up the Nifty 500 Index. Thisindex fundaims to replicate the performance of the index, so you benefit from the collective performance of India s top 500 listed companies. It offers you a simple and efficient way to track the growth of India s large, Mid Smallcap companies through a single investment .",
+      "source_url": "https://www.axismf.com/mutual-funds/index-funds/axis-nifty-500-index-fund/nf-dg/direct",
+      "source_domain": "axismf.com",
+      "last_updated": "2026-03-17T12:29:41.650511",
+      "metadata": {
+        "faq_index": 3,
+        "question": "What is the Axis Nifty 500 Index Fund",
+        "answer": "Axis Nifty 500 Index Fund is an open-endedpassive mutual fund schemethat directly invests in the top 500 companies making up the Nifty 500 Index. Thisindex fundaims to replicate the performance of the index, so you benefit from the collective performance of India s top 500 listed companies. It offers you a simple and efficient way to track the growth of India s large, Mid Smallcap companies through a single investment ."
+      }
+    },
+    {
+      "chunk_id": "dbad332d-0be7-43fd-86b0-0a0aa690a10b",
+      "fund_name": "Axis Nifty 500 Index Fund",
+      "data_type": "FAQ",
+      "content": "Q: Why should you consider investing in the Axis Nifty 500 Index Fund A: This index fund is perfect if you want a low-cost way to diversify your portfolio and participate in the growth of top 500 Indian companies across large, mid Smallcap . It suits both new investors looking for a safe entry point and experienced investors aiming to wealth creation balance their equity allocation.",
+      "source_url": "https://www.axismf.com/mutual-funds/index-funds/axis-nifty-500-index-fund/nf-dg/direct",
+      "source_domain": "axismf.com",
+      "last_updated": "2026-03-17T12:29:41.650511",
+      "metadata": {
+        "faq_index": 4,
+        "question": "Why should you consider investing in the Axis Nifty 500 Index Fund",
+        "answer": "This index fund is perfect if you want a low-cost way to diversify your portfolio and participate in the growth of top 500 Indian companies across large, mid Smallcap . It suits both new investors looking for a safe entry point and experienced investors aiming to wealth creation balance their equity allocation."
+      }
+    },
+    {
+      "chunk_id": "61420692-392f-41ac-adfb-ab28bb1435b6",
+      "fund_name": "Axis Nifty 500 Index Fund",
+      "data_type": "FAQ",
+      "content": "Q: What is the minimum amount you to start investing in Axis Nifty 500 Index Fund A: You can begin investing in the Axis Nifty 500 Index Fund with just ₹100, either via a one-time (lump sum) payment or aSystematic Investment Plan (SIP)",
+      "source_url": "https://www.axismf.com/mutual-funds/index-funds/axis-nifty-500-index-fund/nf-dg/direct",
+      "source_domain": "axismf.com",
+      "last_updated": "2026-03-17T12:29:41.650511",
+      "metadata": {
+        "faq_index": 5,
+        "question": "What is the minimum amount you to start investing in Axis Nifty 500 Index Fund",
+        "answer": "You can begin investing in the Axis Nifty 500 Index Fund with just ₹100, either via a one-time (lump sum) payment or aSystematic Investment Plan (SIP)"
+      }
+    },
+    {
+      "chunk_id": "ec854764-a73b-44e8-a49a-4f9ac37a2b7b",
+      "fund_name": "Axis Nifty 500 Index Fund",
+      "data_type": "FAQ",
+      "content": "Q: How does Axis Nifty 500 Index Fund help you build a diversified portfolio A: By investing in the Axis Nifty 500 Index Fund, your money is spread across top 500 Indian companies across large, mid Smallcap . This means you don t rely on the performance of just one company or sector, which helps reduce overall investment risk and brings balance to your portfolio.",
+      "source_url": "https://www.axismf.com/mutual-funds/index-funds/axis-nifty-500-index-fund/nf-dg/direct",
+      "source_domain": "axismf.com",
+      "last_updated": "2026-03-17T12:29:41.650511",
+      "metadata": {
+        "faq_index": 6,
+        "question": "How does Axis Nifty 500 Index Fund help you build a diversified portfolio",
+        "answer": "By investing in the Axis Nifty 500 Index Fund, your money is spread across top 500 Indian companies across large, mid Smallcap . This means you don t rely on the performance of just one company or sector, which helps reduce overall investment risk and brings balance to your portfolio."
+      }
+    },
+    {
+      "chunk_id": "e5b7203c-01c6-44ab-8d48-7980443755d3",
+      "fund_name": "Axis Nifty 500 Index Fund",
+      "data_type": "FAQ",
+      "content": "Q: How can you invest in the Axis Nifty 500 Index Fund A: You can easily invest online through theAxis Mutual Fund websiteormobile app, as well as via popular financial platforms, banks, or authorized mutual fund distributors. After a few simple steps, you can choose between investing a lump sum or starting a SIP, ensuring a convenient and seamless experience.",
+      "source_url": "https://www.axismf.com/mutual-funds/index-funds/axis-nifty-500-index-fund/nf-dg/direct",
+      "source_domain": "axismf.com",
+      "last_updated": "2026-03-17T12:29:41.650511",
+      "metadata": {
+        "faq_index": 7,
+        "question": "How can you invest in the Axis Nifty 500 Index Fund",
+        "answer": "You can easily invest online through theAxis Mutual Fund websiteormobile app, as well as via popular financial platforms, banks, or authorized mutual fund distributors. After a few simple steps, you can choose between investing a lump sum or starting a SIP, ensuring a convenient and seamless experience."
+      }
+    },
+    {
+      "chunk_id": "add22a18-d803-4032-9a38-5560eb1db870",
+      "fund_name": "Axis Nifty 500 Index Fund",
+      "data_type": "FAQ",
+      "content": "Q: What is the current expense ratio of Axis Nifty 500 Index Fund Direct Growth Plan A: The expense ratio for the Axis Nifty 500 Index Fund Direct Growth Plan is very low around 0.10% (as on 30 September 2025) . This means more of your money stays invested and working for you, making it cost-effective compared to most actively managed mutual funds.",
+      "source_url": "https://www.axismf.com/mutual-funds/index-funds/axis-nifty-500-index-fund/nf-dg/direct",
+      "source_domain": "axismf.com",
+      "last_updated": "2026-03-17T12:29:41.650511",
+      "metadata": {
+        "faq_index": 8,
+        "question": "What is the current expense ratio of Axis Nifty 500 Index Fund Direct Growth Plan",
+        "answer": "The expense ratio for the Axis Nifty 500 Index Fund Direct Growth Plan is very low around 0.10% (as on 30 September 2025) . This means more of your money stays invested and working for you, making it cost-effective compared to most actively managed mutual funds."
+      }
+    },
+    {
+      "chunk_id": "a1cc0ebc-bf8c-4623-8648-f2c6791c9cb5",
+      "fund_name": "Axis Nifty 500 Index Fund",
+      "data_type": "FAQ",
+      "content": "Q: Which top companies are you investing in through Axis Nifty 500 Index Fund A: The Axis Nifty 500 Index Fund has holdings in India s top 500 companies which includes some of India s most respected and stable businesses, such as HDFC Bank, Bajaj Finance, Reliance Industries, NTPC, Power Grid, BSE, Tata Steel, Coal India, ITC and many more . Investing in this fund means owning a piece of the companies that shape India s growth landscape.",
+      "source_url": "https://www.axismf.com/mutual-funds/index-funds/axis-nifty-500-index-fund/nf-dg/direct",
+      "source_domain": "axismf.com",
+      "last_updated": "2026-03-17T12:29:41.650511",
+      "metadata": {
+        "faq_index": 9,
+        "question": "Which top companies are you investing in through Axis Nifty 500 Index Fund",
+        "answer": "The Axis Nifty 500 Index Fund has holdings in India s top 500 companies which includes some of India s most respected and stable businesses, such as HDFC Bank, Bajaj Finance, Reliance Industries, NTPC, Power Grid, BSE, Tata Steel, Coal India, ITC and many more . Investing in this fund means owning a piece of the companies that shape India s growth landscape."
+      }
+    },
+    {
+      "chunk_id": "e68dd410-bbcd-4d40-a878-e4d1b5191f89",
+      "fund_name": "Axis Nifty 500 Index Fund",
+      "data_type": "FAQ",
+      "content": "Q: Is there any lock-in period in Axis Nifty 500 Index Fund A: No, there s no lock-in period for Axis Nifty 500 Index Fund. You are free to redeem or withdraw all or part of your investment any time you want, allowing complete flexibility and liquidity.",
+      "source_url": "https://www.axismf.com/mutual-funds/index-funds/axis-nifty-500-index-fund/nf-dg/direct",
+      "source_domain": "axismf.com",
+      "last_updated": "2026-03-17T12:29:41.650511",
+      "metadata": {
+        "faq_index": 10,
+        "question": "Is there any lock-in period in Axis Nifty 500 Index Fund",
+        "answer": "No, there s no lock-in period for Axis Nifty 500 Index Fund. You are free to redeem or withdraw all or part of your investment any time you want, allowing complete flexibility and liquidity."
+      }
+    },
+    {
+      "chunk_id": "c58108b0-0308-4ab8-b1c8-f94654185570",
+      "fund_name": "Axis Nifty 500 Index Fund",
+      "data_type": "FAQ",
+      "content": "Q: What are the key benefits of investing in Axis Nifty 500 Index Fund A: Wide diversification: Get exposure to 500 of India s top companies in one investment. Low cost: Save on fees with a low expense ratio, so more of your money is invested. Easy access: Begin your investment journey with as little as ₹100. Transparency and simplicity: Know what you re investing in and easily track your portfolio performance. Long-term growth potential: Participate in India s economic expansion over the years.",
+      "source_url": "https://www.axismf.com/mutual-funds/index-funds/axis-nifty-500-index-fund/nf-dg/direct",
+      "source_domain": "axismf.com",
+      "last_updated": "2026-03-17T12:29:41.650511",
+      "metadata": {
+        "faq_index": 11,
+        "question": "What are the key benefits of investing in Axis Nifty 500 Index Fund",
+        "answer": "Wide diversification: Get exposure to 500 of India s top companies in one investment. Low cost: Save on fees with a low expense ratio, so more of your money is invested. Easy access: Begin your investment journey with as little as ₹100. Transparency and simplicity: Know what you re investing in and easily track your portfolio performance. Long-term growth potential: Participate in India s economic expansion over the years."
+      }
+    },
+    {
+      "chunk_id": "3a6334d5-5f63-4d43-9c54-7bfcd6d6f6a0",
+      "fund_name": "Axis Nifty 500 Index Fund",
+      "data_type": "FAQ",
+      "content": "Q: How is taxation on your Axis nifty 500 Index Fund Investment A: Returns after selling your investment after one year are considered Long-Term Capital Gains and taxed at 12.5% beyond ₹1.25 lakh in gains per year. For redemptions within a year, Short-Term Capital Gains Tax applies at 20%. Planning your investment horizon can help manage and optimize your tax burden1.",
+      "source_url": "https://www.axismf.com/mutual-funds/index-funds/axis-nifty-500-index-fund/nf-dg/direct",
+      "source_domain": "axismf.com",
+      "last_updated": "2026-03-17T12:29:41.650511",
+      "metadata": {
+        "faq_index": 12,
+        "question": "How is taxation on your Axis nifty 500 Index Fund Investment",
+        "answer": "Returns after selling your investment after one year are considered Long-Term Capital Gains and taxed at 12.5% beyond ₹1.25 lakh in gains per year. For redemptions within a year, Short-Term Capital Gains Tax applies at 20%. Planning your investment horizon can help manage and optimize your tax burden1."
+      }
+    },
+    {
+      "chunk_id": "10dd9673-68a9-4a0f-a61f-f4380792ad1b",
+      "fund_name": "Axis Nifty 500 Index Fund",
+      "data_type": "FAQ",
+      "content": "Q: Can you set up SWP (Systematic Withdrawal Plan) or STP (Systematic Transfer Plan) with Axis Nifty 500 Index Fund A: Yes You can set up an SWP to receive regular cash payouts, or an STP to transfer money between Axis funds all designed to give you better control and flexibility over your investments.",
+      "source_url": "https://www.axismf.com/mutual-funds/index-funds/axis-nifty-500-index-fund/nf-dg/direct",
+      "source_domain": "axismf.com",
+      "last_updated": "2026-03-17T12:29:41.650511",
+      "metadata": {
+        "faq_index": 13,
+        "question": "Can you set up SWP (Systematic Withdrawal Plan) or STP (Systematic Transfer Plan) with Axis Nifty 500 Index Fund",
+        "answer": "Yes You can set up an SWP to receive regular cash payouts, or an STP to transfer money between Axis funds all designed to give you better control and flexibility over your investments."
+      }
+    },
+    {
+      "chunk_id": "988ee783-75dc-4e7c-a332-9b8843b37d83",
+      "fund_name": "Axis Nifty 500 Index Fund",
+      "data_type": "FAQ",
+      "content": "Q: How often does Axis Nifty 500 Index Fund s portfolio get updated for you A: The Axis Nifty 500 Index Fund s portfolio is rebalanced twice a year to ensure it always reflects the current top 500 companies. This keeps your investment aligned with market changes and the Nifty 500 Index.",
+      "source_url": "https://www.axismf.com/mutual-funds/index-funds/axis-nifty-500-index-fund/nf-dg/direct",
+      "source_domain": "axismf.com",
+      "last_updated": "2026-03-17T12:29:41.650511",
+      "metadata": {
+        "faq_index": 14,
+        "question": "How often does Axis Nifty 500 Index Fund s portfolio get updated for you",
+        "answer": "The Axis Nifty 500 Index Fund s portfolio is rebalanced twice a year to ensure it always reflects the current top 500 companies. This keeps your investment aligned with market changes and the Nifty 500 Index."
+      }
+    },
+    {
+      "chunk_id": "3b67fc02-d817-498c-bd23-4b77f5039890",
+      "fund_name": "Axis Nifty 500 Index Fund",
+      "data_type": "FAQ",
+      "content": "Q: How is Axis Nifty 500 Index Fund different from actively managed equity funds A: Unlike active funds where managers pick and choose stocks in hopes of outperforming the market, this passive index fund mirrors the Nifty 500 Index which consists of India s top 500 most liquid stocks as closely as possible. This results in lower costs, clearer transparency, and more predictable investment outcomes for you.Past performance may or may not sustain in future. Note: Sector(s) Stock(s) mentioned above are for the purpose of disclosure of the portfolio of the Scheme(s) and should not be construed as recommendation.1For individual nature of tax implications, investors are requested to consult their tax advisors before investing. Total Expense Ratio (TER) is of Axis Nifty 500 Index Fund Direct Growth Plan as of 30 September 2025. The TER of the Scheme is subject to change at the discretion of AMC within the limits specified in Scheme Information Document. Investors are requested to visit Axis Mutual Fund website to view the current TER of the Scheme at the time of investments (https: www.axismf.com total-expense-ratio).For NSE disclaimer, refer SID.Note:Market caps are defined as per SEBI regulations as below: a. Large Cap: 1st -100th company in terms of full market capitalization. b. Mid Cap: 101st -250th company in terms of full market capitalization. c. Small Cap: 251st company onwards in terms of full market capitalization.Mutual Fund Investments are subject to market risks, read all scheme related documents carefully.",
+      "source_url": "https://www.axismf.com/mutual-funds/index-funds/axis-nifty-500-index-fund/nf-dg/direct",
+      "source_domain": "axismf.com",
+      "last_updated": "2026-03-17T12:29:41.650511",
+      "metadata": {
+        "faq_index": 15,
+        "question": "How is Axis Nifty 500 Index Fund different from actively managed equity funds",
+        "answer": "Unlike active funds where managers pick and choose stocks in hopes of outperforming the market, this passive index fund mirrors the Nifty 500 Index which consists of India s top 500 most liquid stocks as closely as possible. This results in lower costs, clearer transparency, and more predictable investment outcomes for you.Past performance may or may not sustain in future. Note: Sector(s) Stock(s) mentioned above are for the purpose of disclosure of the portfolio of the Scheme(s) and should not be construed as recommendation.1For individual nature of tax implications, investors are requested to consult their tax advisors before investing. Total Expense Ratio (TER) is of Axis Nifty 500 Index Fund Direct Growth Plan as of 30 September 2025. The TER of the Scheme is subject to change at the discretion of AMC within the limits specified in Scheme Information Document. Investors are requested to visit Axis Mutual Fund website to view the current TER of the Scheme at the time of investments (https: www.axismf.com total-expense-ratio).For NSE disclaimer, refer SID.Note:Market caps are defined as per SEBI regulations as below: a. Large Cap: 1st -100th company in terms of full market capitalization. b. Mid Cap: 101st -250th company in terms of full market capitalization. c. Small Cap: 251st company onwards in terms of full market capitalization.Mutual Fund Investments are subject to market risks, read all scheme related documents carefully."
+      }
+    },
+    {
+      "chunk_id": "c5733549-10c1-47bd-82c7-0ee54d788910",
+      "fund_name": "Axis Nifty 500 Index Fund",
+      "data_type": "FAQ",
+      "content": "Q: Past performance may or may not sustain in future. A: Unlike active funds where managers pick and choose stocks in hopes of outperforming the market, this passive index fund mirrors the Nifty 500 Index which consists of India s top 500 most liquid stocks as closely as possible. This results in lower costs, clearer transparency, and more predictable investment outcomes for you.Past performance may or may not sustain in future. Note: Sector(s) Stock(s) mentioned above are for the purpose of disclosure of the portfolio of the Scheme(s) and should not be construed as recommendation.1For individual nature of tax implications, investors are requested to consult their tax advisors before investing. Total Expense Ratio (TER) is of Axis Nifty 500 Index Fund Direct Growth Plan as of 30 September 2025. The TER of the Scheme is subject to change at the discretion of AMC within the limits specified in Scheme Information Document. Investors are requested to visit Axis Mutual Fund website to view the current TER of the Scheme at the time of investments (https: www.axismf.com total-expense-ratio).For NSE disclaimer, refer SID.Note:Market caps are defined as per SEBI regulations as below: a. Large Cap: 1st -100th company in terms of full market capitalization. b. Mid Cap: 101st -250th company in terms of full market capitalization. c. Small Cap: 251st company onwards in terms of full market capitalization.Mutual Fund Investments are subject to market risks, read all scheme related documents carefully.",
+      "source_url": "https://www.axismf.com/mutual-funds/index-funds/axis-nifty-500-index-fund/nf-dg/direct",
+      "source_domain": "axismf.com",
+      "last_updated": "2026-03-17T12:29:41.650511",
+      "metadata": {
+        "faq_index": 16,
+        "question": "Past performance may or may not sustain in future.",
+        "answer": "Unlike active funds where managers pick and choose stocks in hopes of outperforming the market, this passive index fund mirrors the Nifty 500 Index which consists of India s top 500 most liquid stocks as closely as possible. This results in lower costs, clearer transparency, and more predictable investment outcomes for you.Past performance may or may not sustain in future. Note: Sector(s) Stock(s) mentioned above are for the purpose of disclosure of the portfolio of the Scheme(s) and should not be construed as recommendation.1For individual nature of tax implications, investors are requested to consult their tax advisors before investing. Total Expense Ratio (TER) is of Axis Nifty 500 Index Fund Direct Growth Plan as of 30 September 2025. The TER of the Scheme is subject to change at the discretion of AMC within the limits specified in Scheme Information Document. Investors are requested to visit Axis Mutual Fund website to view the current TER of the Scheme at the time of investments (https: www.axismf.com total-expense-ratio).For NSE disclaimer, refer SID.Note:Market caps are defined as per SEBI regulations as below: a. Large Cap: 1st -100th company in terms of full market capitalization. b. Mid Cap: 101st -250th company in terms of full market capitalization. c. Small Cap: 251st company onwards in terms of full market capitalization.Mutual Fund Investments are subject to market risks, read all scheme related documents carefully."
+      }
+    },
+    {
+      "chunk_id": "72739c56-a301-43d8-b6dd-2ed832c1428a",
+      "fund_name": "Axis Nifty 500 Index Fund",
+      "data_type": "FAQ",
+      "content": "Q: Past performance may or may not sustain in future. A: Unlike active funds where managers pick and choose stocks in hopes of outperforming the market, this passive index fund mirrors the Nifty 500 Index which consists of India s top 500 most liquid stocks as closely as possible. This results in lower costs, clearer transparency, and more predictable investment outcomes for you.Past performance may or may not sustain in future. Note: Sector(s) Stock(s) mentioned above are for the purpose of disclosure of the portfolio of the Scheme(s) and should not be construed as recommendation.1For individual nature of tax implications, investors are requested to consult their tax advisors before investing. Total Expense Ratio (TER) is of Axis Nifty 500 Index Fund Direct Growth Plan as of 30 September 2025. The TER of the Scheme is subject to change at the discretion of AMC within the limits specified in Scheme Information Document. Investors are requested to visit Axis Mutual Fund website to view the current TER of the Scheme at the time of investments (https: www.axismf.com total-expense-ratio).For NSE disclaimer, refer SID.Note:Market caps are defined as per SEBI regulations as below: a. Large Cap: 1st -100th company in terms of full market capitalization. b. Mid Cap: 101st -250th company in terms of full market capitalization. c. Small Cap: 251st company onwards in terms of full market capitalization.Mutual Fund Investments are subject to market risks, read all scheme related documents carefully.",
+      "source_url": "https://www.axismf.com/mutual-funds/index-funds/axis-nifty-500-index-fund/nf-dg/direct",
+      "source_domain": "axismf.com",
+      "last_updated": "2026-03-17T12:29:41.650511",
+      "metadata": {
+        "faq_index": 17,
+        "question": "Past performance may or may not sustain in future.",
+        "answer": "Unlike active funds where managers pick and choose stocks in hopes of outperforming the market, this passive index fund mirrors the Nifty 500 Index which consists of India s top 500 most liquid stocks as closely as possible. This results in lower costs, clearer transparency, and more predictable investment outcomes for you.Past performance may or may not sustain in future. Note: Sector(s) Stock(s) mentioned above are for the purpose of disclosure of the portfolio of the Scheme(s) and should not be construed as recommendation.1For individual nature of tax implications, investors are requested to consult their tax advisors before investing. Total Expense Ratio (TER) is of Axis Nifty 500 Index Fund Direct Growth Plan as of 30 September 2025. The TER of the Scheme is subject to change at the discretion of AMC within the limits specified in Scheme Information Document. Investors are requested to visit Axis Mutual Fund website to view the current TER of the Scheme at the time of investments (https: www.axismf.com total-expense-ratio).For NSE disclaimer, refer SID.Note:Market caps are defined as per SEBI regulations as below: a. Large Cap: 1st -100th company in terms of full market capitalization. b. Mid Cap: 101st -250th company in terms of full market capitalization. c. Small Cap: 251st company onwards in terms of full market capitalization.Mutual Fund Investments are subject to market risks, read all scheme related documents carefully."
+      }
+    },
+    {
+      "chunk_id": "18c3f9aa-f474-47d6-a9fc-167035ce9d7f",
+      "fund_name": "Axis ELSS Tax Saver",
+      "data_type": "RISKOMETER",
+      "content": "Axis ELSS Tax Saver has a Very High risk level.",
+      "source_url": "https://www.axismf.com/mutual-funds/equity-funds/axis-elss-tax-saver-fund/ts-dg/direct",
+      "source_domain": "axismf.com",
+      "last_updated": "2026-03-17T12:29:41.751439",
+      "metadata": {
+        "risk_level": "Very High"
+      }
+    },
+    {
+      "chunk_id": "4b60e42e-b3ef-4a3a-9b2a-f1e3aedffab4",
+      "fund_name": "Axis ELSS Tax Saver",
+      "data_type": "BENCHMARK",
+      "content": "The benchmark for Axis ELSS Tax Saver is is Very HighMinimum Investment AmountLumpsum Investment : ₹ 500Additional Investment : ₹ 500Goal PlanningBig or small, everyone has goals that they want to accomplish. There are some goals you re able to fulfil and others that you re not. With proper planning a lot of this can be managed..",
+      "source_url": "https://www.axismf.com/mutual-funds/equity-funds/axis-elss-tax-saver-fund/ts-dg/direct",
+      "source_domain": "axismf.com",
+      "last_updated": "2026-03-17T12:29:41.751439",
+      "metadata": {
+        "benchmark": "is Very HighMinimum Investment AmountLumpsum Investment : ₹ 500Additional Investment : ₹ 500Goal PlanningBig or small, everyone has goals that they want to accomplish. There are some goals you’re able to fulfil and others that you’re not. With proper planning a lot of this can be managed."
+      }
+    },
+    {
+      "chunk_id": "12dd562c-3aba-4a9e-87f7-4bca6b957f41",
+      "fund_name": "Axis ELSS Tax Saver",
+      "data_type": "FAQ",
+      "content": "Q: What is Axis ELSS Tax Saver Fund A: Axis ELSS Tax Saver Fund is an ELSS mutual fund scheme. This is an open ended equity linked saving scheme with a statutory lock in of 3 years and tax benefit. The investment objective of this tax saver fund is to generate income and long-term capital appreciation from a diversified portfolio of predominantly equity and equity-related securities. However, there can be no assurance that the investment objective of the Scheme will be achieved.",
+      "source_url": "https://www.axismf.com/mutual-funds/equity-funds/axis-elss-tax-saver-fund/ts-dg/direct",
+      "source_domain": "axismf.com",
+      "last_updated": "2026-03-17T12:29:41.751439",
+      "metadata": {
+        "faq_index": 0,
+        "question": "What is Axis ELSS Tax Saver Fund",
+        "answer": "Axis ELSS Tax Saver Fund is an ELSS mutual fund scheme. This is an open ended equity linked saving scheme with a statutory lock in of 3 years and tax benefit. The investment objective of this tax saver fund is to generate income and long-term capital appreciation from a diversified portfolio of predominantly equity and equity-related securities. However, there can be no assurance that the investment objective of the Scheme will be achieved."
+      }
+    },
+    {
+      "chunk_id": "13c7a483-b0cd-475e-84ad-97b7f1694ab0",
+      "fund_name": "Axis ELSS Tax Saver",
+      "data_type": "FAQ",
+      "content": "Q: What is Axis ELSS Tax Saver Fund A: Axis ELSS Tax Saver Fund is an ELSS mutual fund scheme. This is an open ended equity linked saving scheme with a statutory lock in of 3 years and tax benefit. The investment objective of this tax saver fund is to generate income and long-term capital appreciation from a diversified portfolio of predominantly equity and equity-related securities. However, there can be no assurance that the investment objective of the Scheme will be achieved.",
+      "source_url": "https://www.axismf.com/mutual-funds/equity-funds/axis-elss-tax-saver-fund/ts-dg/direct",
+      "source_domain": "axismf.com",
+      "last_updated": "2026-03-17T12:29:41.751439",
+      "metadata": {
+        "faq_index": 1,
+        "question": "What is Axis ELSS Tax Saver Fund",
+        "answer": "Axis ELSS Tax Saver Fund is an ELSS mutual fund scheme. This is an open ended equity linked saving scheme with a statutory lock in of 3 years and tax benefit. The investment objective of this tax saver fund is to generate income and long-term capital appreciation from a diversified portfolio of predominantly equity and equity-related securities. However, there can be no assurance that the investment objective of the Scheme will be achieved."
+      }
+    },
+    {
+      "chunk_id": "87e01c61-3eb3-4f78-a0d1-50d9685f86c6",
+      "fund_name": "Axis ELSS Tax Saver",
+      "data_type": "FAQ",
+      "content": "Q: How to invest in Axis ELSS Tax Saver Fund A: One of the best to way to save tax is by investing in tax saving mutual funds like ELSS. Follow these simple steps to invest in Axis ELSS Tax Saver Fund online:1. Log on to https: www.axismf.com website2. Hover on the All Schemes tab and when you get a drop down click on Equity 3. You will see all the equity mutual funds offered by Axis Mutual Fund4. Select Axis ELSS Tax Saver Fund 5. Click on Start SIP if you want to start a SIP6. Then Select the SIP amount, Tenure, SIP date and Growth Regular plan and click Continue 7. If you want to start investing right away, you can even click select the Add Lumpsum feature8. You can now start investing in this ELSS mutual fund and save tax",
+      "source_url": "https://www.axismf.com/mutual-funds/equity-funds/axis-elss-tax-saver-fund/ts-dg/direct",
+      "source_domain": "axismf.com",
+      "last_updated": "2026-03-17T12:29:41.751439",
+      "metadata": {
+        "faq_index": 2,
+        "question": "How to invest in Axis ELSS Tax Saver Fund",
+        "answer": "One of the best to way to save tax is by investing in tax saving mutual funds like ELSS. Follow these simple steps to invest in Axis ELSS Tax Saver Fund online:1. Log on to https: www.axismf.com website2. Hover on the All Schemes tab and when you get a drop down click on Equity 3. You will see all the equity mutual funds offered by Axis Mutual Fund4. Select Axis ELSS Tax Saver Fund 5. Click on Start SIP if you want to start a SIP6. Then Select the SIP amount, Tenure, SIP date and Growth Regular plan and click Continue 7. If you want to start investing right away, you can even click select the Add Lumpsum feature8. You can now start investing in this ELSS mutual fund and save tax"
+      }
+    },
+    {
+      "chunk_id": "c44f4a5f-bb78-436e-94e9-449d0d991174",
+      "fund_name": "Axis ELSS Tax Saver",
+      "data_type": "FAQ",
+      "content": "Q: Who should invest in Axis ELSS Tax Saver Fund A: Axis ELSS Tax Saver Fund is an ELSS scheme that falls under the Section 80C of the Indian Income Tax Act, 1961. It is an open ended equity mutual fund scheme which is ideal for investors with a long term investment horizon and a very high risk appetite. Investors seeking tax exemption for the ongoing fiscal year may consider investing in equity linked savings scheme like Axis ELSS Tax Saver Fund. This tax saver fund comes with a predetermined lock-in period of three years and invests in equity for generating long term capital appreciation. Investors who are alright with investing in tax saving instrument that invests in equity may consider diversifying their portfolio with Axis ELSS Tax Saver Fund.",
+      "source_url": "https://www.axismf.com/mutual-funds/equity-funds/axis-elss-tax-saver-fund/ts-dg/direct",
+      "source_domain": "axismf.com",
+      "last_updated": "2026-03-17T12:29:41.751439",
+      "metadata": {
+        "faq_index": 3,
+        "question": "Who should invest in Axis ELSS Tax Saver Fund",
+        "answer": "Axis ELSS Tax Saver Fund is an ELSS scheme that falls under the Section 80C of the Indian Income Tax Act, 1961. It is an open ended equity mutual fund scheme which is ideal for investors with a long term investment horizon and a very high risk appetite. Investors seeking tax exemption for the ongoing fiscal year may consider investing in equity linked savings scheme like Axis ELSS Tax Saver Fund. This tax saver fund comes with a predetermined lock-in period of three years and invests in equity for generating long term capital appreciation. Investors who are alright with investing in tax saving instrument that invests in equity may consider diversifying their portfolio with Axis ELSS Tax Saver Fund."
+      }
+    },
+    {
+      "chunk_id": "836f1ccf-5df1-4631-a711-460cb8f82985",
+      "fund_name": "Axis ELSS Tax Saver",
+      "data_type": "FAQ",
+      "content": "Q: Benefits of investing in Axis ELSS Tax Saver Fund A: Axis ELSS Tax Saver Fund is a diversified equity linked saving scheme (ELSS) that invests in a mix of large caps and select midcaps. This tax saver fund has a 3-year lock-in which is one of the lowest amongst other tax saving instruments. A 3-year lock-in ensures that the money stays invested in equities and does not get perturbed by market ups and downs. Add to it, the fund manager can take much informed decision and look through the interim volatility. Being an ELSS scheme, the scheme comes with dual advantages of building wealth and saving tax. The long term mutual fund has a 3-year lock-in which is one of the lowest amongst other tax saving instruments. Also, equity as an asset class holds potential to beat inflation and generate long term wealth. By investing in Axis ELSS Tax Saver Fund, investors can target long-term goals such as children s education their future, retirement or any other long term growth that needs wealth creation plan.",
+      "source_url": "https://www.axismf.com/mutual-funds/equity-funds/axis-elss-tax-saver-fund/ts-dg/direct",
+      "source_domain": "axismf.com",
+      "last_updated": "2026-03-17T12:29:41.751439",
+      "metadata": {
+        "faq_index": 4,
+        "question": "Benefits of investing in Axis ELSS Tax Saver Fund",
+        "answer": "Axis ELSS Tax Saver Fund is a diversified equity linked saving scheme (ELSS) that invests in a mix of large caps and select midcaps. This tax saver fund has a 3-year lock-in which is one of the lowest amongst other tax saving instruments. A 3-year lock-in ensures that the money stays invested in equities and does not get perturbed by market ups and downs. Add to it, the fund manager can take much informed decision and look through the interim volatility. Being an ELSS scheme, the scheme comes with dual advantages of building wealth and saving tax. The long term mutual fund has a 3-year lock-in which is one of the lowest amongst other tax saving instruments. Also, equity as an asset class holds potential to beat inflation and generate long term wealth. By investing in Axis ELSS Tax Saver Fund, investors can target long-term goals such as children s education their future, retirement or any other long term growth that needs wealth creation plan."
+      }
+    },
+    {
+      "chunk_id": "df1fd503-ca40-48f1-9053-62d5e6379f2a",
+      "fund_name": "Axis ELSS Tax Saver",
+      "data_type": "FAQ",
+      "content": "Q: When can I redeem my Axis ELSS Tax Saver Fund A: Axis ELSS Tax Saver Fund is a tax saving mutual fund scheme that comes with a statutory lock-in of three years. A lock-in period in mutual funds is a duration where the investor cannot sell his or her mutual fund scheme investments. This means investors cannot redeem their Axis ELSS Tax Saver Fund units for a minimum duration of 36 months from the time of investment. Upon the completion of the lock-in period, retail investors can redeem their Axis ELSS Tax Saver Fund units, or they can even consider this ELSS fund for long term investment.",
+      "source_url": "https://www.axismf.com/mutual-funds/equity-funds/axis-elss-tax-saver-fund/ts-dg/direct",
+      "source_domain": "axismf.com",
+      "last_updated": "2026-03-17T12:29:41.751439",
+      "metadata": {
+        "faq_index": 5,
+        "question": "When can I redeem my Axis ELSS Tax Saver Fund",
+        "answer": "Axis ELSS Tax Saver Fund is a tax saving mutual fund scheme that comes with a statutory lock-in of three years. A lock-in period in mutual funds is a duration where the investor cannot sell his or her mutual fund scheme investments. This means investors cannot redeem their Axis ELSS Tax Saver Fund units for a minimum duration of 36 months from the time of investment. Upon the completion of the lock-in period, retail investors can redeem their Axis ELSS Tax Saver Fund units, or they can even consider this ELSS fund for long term investment."
+      }
+    },
+    {
+      "chunk_id": "a5b05a24-2c96-48f7-8e69-18f14fe1df83",
+      "fund_name": "Axis ELSS Tax Saver",
+      "data_type": "FAQ",
+      "content": "Q: How does Axis ELSS Tax Saver Fund work A: Axis ELSS Tax Saver Fund is a mutual fund scheme that invests a majority of its investible corpus in equity and equity related instruments of various companies. The scheme may invest the remaining its corpus in money market instruments in quantum with the scheme s investment objective. The AMC collects money from investors sharing a common investment objective and the fund manager invests this accumulated sum. In return, investors receive units in accordance with the scheme s current NAV (net asset value). The fund manager will try to balance the portfolio between large caps and mid caps while searching for investment opportunities across market cap. The scheme tries to invest in stocks that have growth potential and can offer long term earnings to investors.",
+      "source_url": "https://www.axismf.com/mutual-funds/equity-funds/axis-elss-tax-saver-fund/ts-dg/direct",
+      "source_domain": "axismf.com",
+      "last_updated": "2026-03-17T12:29:41.751439",
+      "metadata": {
+        "faq_index": 6,
+        "question": "How does Axis ELSS Tax Saver Fund work",
+        "answer": "Axis ELSS Tax Saver Fund is a mutual fund scheme that invests a majority of its investible corpus in equity and equity related instruments of various companies. The scheme may invest the remaining its corpus in money market instruments in quantum with the scheme s investment objective. The AMC collects money from investors sharing a common investment objective and the fund manager invests this accumulated sum. In return, investors receive units in accordance with the scheme s current NAV (net asset value). The fund manager will try to balance the portfolio between large caps and mid caps while searching for investment opportunities across market cap. The scheme tries to invest in stocks that have growth potential and can offer long term earnings to investors."
+      }
+    },
+    {
+      "chunk_id": "bcbf0705-6355-4e77-ba75-3a225a5b48ac",
+      "fund_name": "Axis Large Cap Fund",
+      "data_type": "RISKOMETER",
+      "content": "Axis Large Cap Fund has a Very High risk level.",
+      "source_url": "https://www.axismf.com/mutual-funds/equity-funds/axis-large-cap-fund/ef-dg/direct",
+      "source_domain": "axismf.com",
+      "last_updated": "2026-03-17T12:29:42.383656",
+      "metadata": {
+        "risk_level": "Very High"
+      }
+    },
+    {
+      "chunk_id": "4f92762e-f426-46ba-9c06-28bfb275ab5f",
+      "fund_name": "Axis Large Cap Fund",
+      "data_type": "BENCHMARK",
+      "content": "The benchmark for Axis Large Cap Fund is with risk lower than the benchmark.Asset Class benefit - Equity as an asset class holds potential to beat inflation and generate long term wealth.Target Goals- Long-term goals such as children s education their future, retirement or any other long term growth that needs wealth creation plan.Fund ManagerMr. Jayesh SundarManaging this fund since 04th Nov 202423YearsWork ExperienceSee all schemes managed by Jayesh SundarMr. Shreyash DevalkarManaging this fund since 23th Nov 201622YearsWork ExperienceSee all schemes managed by Shreyash DevalkarMs. Krishnaa NManaging this fund since 01th Mar 20246YearsWork ExperienceSee all schemes managed by Krishnaa NEntry LoadNAExit LoadIf redeemed switched-out within 12 months from the date of allotment,For 10% of investments: Nil.For remaining investments: 1%.If redeemed switched - out after 12 months from the date of allotment: NIL Statistical Measures (3 Years)Standard Deviation11.05%Beta0.90Sharpe Ratio 0.73Portfolio Turnover(1 Year)0.83 timesDisclaimer: Risk-free rate assumed to be 5.17% (MIBOR as on 27-02-2026) - Source: www.fimmda.org. Computed for the 3-yr period ended February 27, 2026. Based on month-end NAV.Updated as on: This product is suitable for investors who are seeking Capital appreciation over long term.Investment in a diversified portfolio predominantly consisting of equity and equity related instruments of large cap companies. Investors should consult their financial advisers if in doubt about whether the product is suitable for them.Axis Large Cap FundThe risk of the scheme is Very HighBSE 100 TRIThe risk of the benchmark is Very HighMinimum Investment AmountLumpsum Investment : ₹ 100Additional Investment : ₹ 100Goal PlanningBig or small, everyone has goals that they want to accomplish. There are some goals you re able to fulfil and others that you re not. With proper planning a lot of this can be managed..",
+      "source_url": "https://www.axismf.com/mutual-funds/equity-funds/axis-large-cap-fund/ef-dg/direct",
+      "source_domain": "axismf.com",
+      "last_updated": "2026-03-17T12:29:42.383656",
+      "metadata": {
+        "benchmark": "with risk lower than the benchmark.Asset Class benefit - Equity as an asset class holds potential to beat inflation and generate long term wealth.Target Goals- Long-term goals such as children's education & their future, retirement or any other long term growth that needs wealth creation plan.Fund ManagerMr. Jayesh SundarManaging this fund since 04th Nov 202423YearsWork ExperienceSee all schemes managed by Jayesh SundarMr. Shreyash DevalkarManaging this fund since 23th Nov 201622YearsWork ExperienceSee all schemes managed by Shreyash DevalkarMs. Krishnaa NManaging this fund since 01th Mar 20246YearsWork ExperienceSee all schemes managed by Krishnaa NEntry LoadNAExit LoadIf redeemed / switched-out within 12 months from the date of allotment,For 10% of investments: Nil.For remaining investments: 1%.If redeemed/switched - out after 12 months from the date of allotment: NIL Statistical Measures (3 Years)Standard Deviation11.05%Beta0.90Sharpe Ratio**0.73Portfolio Turnover(1 Year)0.83 timesDisclaimer: **Risk-free rate assumed to be 5.17% (MIBOR as on 27-02-2026) - Source: www.fimmda.org.  Computed for the 3-yr period ended February 27, 2026. Based on month-end NAV.Updated as on: This product is suitable for investors who are seeking*Capital appreciation over long term.Investment in a diversified portfolio predominantly consisting of equity and equity related instruments of large cap companies.*Investors should consult their financial advisers if in doubt about whether the product is suitable for them.Axis Large Cap FundThe risk of the scheme is Very HighBSE 100 TRIThe risk of the benchmark is Very HighMinimum Investment AmountLumpsum Investment : ₹ 100Additional Investment : ₹ 100Goal PlanningBig or small, everyone has goals that they want to accomplish. There are some goals you’re able to fulfil and others that you’re not. With proper planning a lot of this can be managed."
+      }
+    },
+    {
+      "chunk_id": "be3b620f-1f73-43ac-ba30-deec40b1f8cf",
+      "fund_name": "Axis Large Cap Fund",
+      "data_type": "FAQ",
+      "content": "Q: What is a Large Cap Fund A: A Large cap fund is an open ended equity scheme that predominantly invests in equity and equity related instruments of large cap companies. Also referred to as large cap fund, Large Cap funds invest a minimum of 65% of their total investible corpus in equity and equity related instruments of financially well-established companies. Large Cap funds mostly invest in stocks of companies that have a proven track record. Of its total assets, a Large Cap fund allocates a majority of its assets to companies with large market capitalization.",
+      "source_url": "https://www.axismf.com/mutual-funds/equity-funds/axis-large-cap-fund/ef-dg/direct",
+      "source_domain": "axismf.com",
+      "last_updated": "2026-03-17T12:29:42.383656",
+      "metadata": {
+        "faq_index": 0,
+        "question": "What is a Large Cap Fund",
+        "answer": "A Large cap fund is an open ended equity scheme that predominantly invests in equity and equity related instruments of large cap companies. Also referred to as large cap fund, Large Cap funds invest a minimum of 65% of their total investible corpus in equity and equity related instruments of financially well-established companies. Large Cap funds mostly invest in stocks of companies that have a proven track record. Of its total assets, a Large Cap fund allocates a majority of its assets to companies with large market capitalization."
+      }
+    },
+    {
+      "chunk_id": "66039d75-d22b-424d-ae4e-d64b469c743d",
+      "fund_name": "Axis Large Cap Fund",
+      "data_type": "FAQ",
+      "content": "Q: What is a Large Cap Fund A: A Large cap fund is an open ended equity scheme that predominantly invests in equity and equity related instruments of large cap companies. Also referred to as large cap fund, Large Cap funds invest a minimum of 65% of their total investible corpus in equity and equity related instruments of financially well-established companies. Large Cap funds mostly invest in stocks of companies that have a proven track record. Of its total assets, a Large Cap fund allocates a majority of its assets to companies with large market capitalization.",
+      "source_url": "https://www.axismf.com/mutual-funds/equity-funds/axis-large-cap-fund/ef-dg/direct",
+      "source_domain": "axismf.com",
+      "last_updated": "2026-03-17T12:29:42.383656",
+      "metadata": {
+        "faq_index": 1,
+        "question": "What is a Large Cap Fund",
+        "answer": "A Large cap fund is an open ended equity scheme that predominantly invests in equity and equity related instruments of large cap companies. Also referred to as large cap fund, Large Cap funds invest a minimum of 65% of their total investible corpus in equity and equity related instruments of financially well-established companies. Large Cap funds mostly invest in stocks of companies that have a proven track record. Of its total assets, a Large Cap fund allocates a majority of its assets to companies with large market capitalization."
+      }
+    },
+    {
+      "chunk_id": "ab597e9b-1d57-436f-9875-f6750a4bfce1",
+      "fund_name": "Axis Large Cap Fund",
+      "data_type": "FAQ",
+      "content": "Q: How to invest in Large Cap Fund A: One way to earn long term capital appreciation is by investing in Axis Large Cap Fund. Follow these simple steps to invest in Axis Large Cap Fund online:1. Log on to https: www.axismf.com website2. Hover on the All Schemes tab and when you get a drop down click on Equity 3. You will see all the equity mutual funds offered by Axis Mutual Fund4. Select Axis Large Cap Fund 5. Click on Start SIP if you want to start a SIP6. Then Select the SIP amount, Tenure, SIP date, and Growth Regular plan and click Continue 7. If you want to start investing right away, you can even click select the Add Lumpsum feature8. You can now start investing in Axis Large Cap Fund",
+      "source_url": "https://www.axismf.com/mutual-funds/equity-funds/axis-large-cap-fund/ef-dg/direct",
+      "source_domain": "axismf.com",
+      "last_updated": "2026-03-17T12:29:42.383656",
+      "metadata": {
+        "faq_index": 2,
+        "question": "How to invest in Large Cap Fund",
+        "answer": "One way to earn long term capital appreciation is by investing in Axis Large Cap Fund. Follow these simple steps to invest in Axis Large Cap Fund online:1. Log on to https: www.axismf.com website2. Hover on the All Schemes tab and when you get a drop down click on Equity 3. You will see all the equity mutual funds offered by Axis Mutual Fund4. Select Axis Large Cap Fund 5. Click on Start SIP if you want to start a SIP6. Then Select the SIP amount, Tenure, SIP date, and Growth Regular plan and click Continue 7. If you want to start investing right away, you can even click select the Add Lumpsum feature8. You can now start investing in Axis Large Cap Fund"
+      }
+    },
+    {
+      "chunk_id": "c885a534-a7a6-46e3-b67a-cd4f8f6519cd",
+      "fund_name": "Axis Large Cap Fund",
+      "data_type": "FAQ",
+      "content": "Q: Who should invest in Large Cap Fund A: Large Cap funds predominantly invest in the equity market. This makes them a very high volatile investment. This mutual fund scheme may hold the potential to offer risk adjusted returns over the long term, but it doesn t guarantee returns. Hence, investors with a very high risk appetite and a long term investment horizon may consider investing in a large Cap fund. If you are someone who wishes to invest in a diversified portfolio of largecap stocks you should consider investing in a largecap fund.",
+      "source_url": "https://www.axismf.com/mutual-funds/equity-funds/axis-large-cap-fund/ef-dg/direct",
+      "source_domain": "axismf.com",
+      "last_updated": "2026-03-17T12:29:42.383656",
+      "metadata": {
+        "faq_index": 3,
+        "question": "Who should invest in Large Cap Fund",
+        "answer": "Large Cap funds predominantly invest in the equity market. This makes them a very high volatile investment. This mutual fund scheme may hold the potential to offer risk adjusted returns over the long term, but it doesn t guarantee returns. Hence, investors with a very high risk appetite and a long term investment horizon may consider investing in a large Cap fund. If you are someone who wishes to invest in a diversified portfolio of largecap stocks you should consider investing in a largecap fund."
+      }
+    },
+    {
+      "chunk_id": "83e4f0b0-c971-4595-89a8-73844eb68900",
+      "fund_name": "Axis Large Cap Fund",
+      "data_type": "FAQ",
+      "content": "Q: Is it good to invest in Axis Large Cap Fund A: Investing in Axis Large Cap Fund is a good option as this scheme has the potential to offer risk adjusted returns over the long term. Investing in Axis Large Cap Fund may allow investors to create wealth however, investors may need to have a long term investment horizon spanning over five years to seven years at least so that this equity fund is able to perform and deliver decent returns over in the long run. Also, only investors who carry a very high risk appetite should consider investing in Axis Large Cap Fund. Investors can target their life s long term financial goals like retirement planning, securing their child s financial future, building a marriage corpus for their child, etc. by investing in Axis Large Cap Fund.",
+      "source_url": "https://www.axismf.com/mutual-funds/equity-funds/axis-large-cap-fund/ef-dg/direct",
+      "source_domain": "axismf.com",
+      "last_updated": "2026-03-17T12:29:42.383656",
+      "metadata": {
+        "faq_index": 4,
+        "question": "Is it good to invest in Axis Large Cap Fund",
+        "answer": "Investing in Axis Large Cap Fund is a good option as this scheme has the potential to offer risk adjusted returns over the long term. Investing in Axis Large Cap Fund may allow investors to create wealth however, investors may need to have a long term investment horizon spanning over five years to seven years at least so that this equity fund is able to perform and deliver decent returns over in the long run. Also, only investors who carry a very high risk appetite should consider investing in Axis Large Cap Fund. Investors can target their life s long term financial goals like retirement planning, securing their child s financial future, building a marriage corpus for their child, etc. by investing in Axis Large Cap Fund."
+      }
+    },
+    {
+      "chunk_id": "b69fe98f-518c-43d0-8d00-a8a6c12e79ce",
+      "fund_name": "Axis Large Cap Fund",
+      "data_type": "FAQ",
+      "content": "Q: What are the benefits of investing in the Axis Large Cap Fund A: Here are the primary benefits of investing in Axis Large Cap Fund:Large Cap mutual funds invest predominantly in large companiesSuch companies are traded frequently and hence liquid and also less volatile as these stocks have a proven track record, business models and are capable enough to deliver long term consistent returns.The Axis Large Cap Fund aims to outperform the benchmark with risk lower than the benchmark.Asset Class benefit - Equity as an asset class holds the potential to beat inflation and generate long term wealth.Target Goals- Long-term goals such as children s education their future, retirement, or any other long term growth that needs a wealth creation plan",
+      "source_url": "https://www.axismf.com/mutual-funds/equity-funds/axis-large-cap-fund/ef-dg/direct",
+      "source_domain": "axismf.com",
+      "last_updated": "2026-03-17T12:29:42.383656",
+      "metadata": {
+        "faq_index": 5,
+        "question": "What are the benefits of investing in the Axis Large Cap Fund",
+        "answer": "Here are the primary benefits of investing in Axis Large Cap Fund:Large Cap mutual funds invest predominantly in large companiesSuch companies are traded frequently and hence liquid and also less volatile as these stocks have a proven track record, business models and are capable enough to deliver long term consistent returns.The Axis Large Cap Fund aims to outperform the benchmark with risk lower than the benchmark.Asset Class benefit - Equity as an asset class holds the potential to beat inflation and generate long term wealth.Target Goals- Long-term goals such as children s education their future, retirement, or any other long term growth that needs a wealth creation plan"
+      }
+    },
+    {
+      "chunk_id": "700a78c1-f3ab-4f33-a5b4-17ba5fe50b31",
+      "fund_name": "Axis Large Cap Fund",
+      "data_type": "FAQ",
+      "content": "Q: How does Large Cap Fund work A: Axis Large Cap Fund works pretty much like any other equity mutual fund scheme. The fund invests a majority of its investible corpus in equity and equity related instruments of companies with large market capitalization. The scheme may invest the remaining corpus in money market instruments in quantum with the scheme s investment objective. The AMC collects money from investors sharing a common investment objective and the fund manager invests this accumulated sum across large cap companies. In exchange, the investors receive units in accordance with the scheme s existing Net Asset Value (NAV). The NAV of the scheme may fluctuate depending on how the scheme performs over time. Axis Large Cap Fund invests in large cap stocks that have growth potential and can offer long term earnings to investors.",
+      "source_url": "https://www.axismf.com/mutual-funds/equity-funds/axis-large-cap-fund/ef-dg/direct",
+      "source_domain": "axismf.com",
+      "last_updated": "2026-03-17T12:29:42.383656",
+      "metadata": {
+        "faq_index": 6,
+        "question": "How does Large Cap Fund work",
+        "answer": "Axis Large Cap Fund works pretty much like any other equity mutual fund scheme. The fund invests a majority of its investible corpus in equity and equity related instruments of companies with large market capitalization. The scheme may invest the remaining corpus in money market instruments in quantum with the scheme s investment objective. The AMC collects money from investors sharing a common investment objective and the fund manager invests this accumulated sum across large cap companies. In exchange, the investors receive units in accordance with the scheme s existing Net Asset Value (NAV). The NAV of the scheme may fluctuate depending on how the scheme performs over time. Axis Large Cap Fund invests in large cap stocks that have growth potential and can offer long term earnings to investors."
+      }
+    }
+  ],
+  "_metadata": {
+    "processed_at": "2026-03-17T13:05:27.215073",
+    "total_chunks": 62,
+    "funds": [
+      "Axis ELSS Tax Saver",
+      "Axis Nifty 500 Index Fund",
+      "Axis Small Cap Fund",
+      "Axis Large Cap Fund"
+    ],
+    "data_types": [
+      "RISKOMETER",
+      "EXPENSE_RATIO",
+      "EXIT_LOAD",
+      "FAQ",
+      "MIN_SIP",
+      "BENCHMARK"
+    ]
+  }
+}

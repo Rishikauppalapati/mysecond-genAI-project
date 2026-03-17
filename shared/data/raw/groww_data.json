@@ -1,0 +1,55 @@
+{
+  "Axis Large Cap Fund": {
+    "fund_name": "Axis Large Cap Fund",
+    "fund_code": "axis-large-cap-fund-direct-growth",
+    "source": "groww.in",
+    "source_url": "https://groww.in/mutual-funds/axis-large-cap-fund-direct-growth",
+    "csv_reference": "sources.csv:Axis Large Cap Fund",
+    "last_updated": "2026-03-17T17:58:21.519568",
+    "nav": null,
+    "min_sip": null,
+    "expense_ratio": "0.74%",
+    "exit_load": "A fee payable to a mutual fund house for exiting a fund (fully or partially) before the completion of a specified period from the date of investment."
+  },
+  "Axis ELSS Tax Saver": {
+    "fund_name": "Axis ELSS Tax Saver",
+    "fund_code": "axis-elss-tax-saver-direct-plan-growth",
+    "source": "groww.in",
+    "source_url": "https://groww.in/mutual-funds/axis-elss-tax-saver-direct-plan-growth",
+    "csv_reference": "sources.csv:Axis ELSS Tax Saver",
+    "last_updated": "2026-03-17T17:58:21.984513",
+    "nav": null,
+    "min_sip": null,
+    "expense_ratio": "0.84%",
+    "exit_load": "A fee payable to a mutual fund house for exiting a fund (fully or partially) before the completion of a specified period from the date of investment."
+  },
+  "Axis Nifty 500 Index Fund": {
+    "fund_name": "Axis Nifty 500 Index Fund",
+    "fund_code": "axis-nifty-500-index-fund-direct-growth",
+    "source": "groww.in",
+    "source_url": "https://groww.in/mutual-funds/axis-nifty-500-index-fund-direct-growth",
+    "csv_reference": "sources.csv:Axis Nifty 500 Index Fund",
+    "last_updated": "2026-03-17T17:58:22.609017",
+    "nav": null,
+    "min_sip": null,
+    "expense_ratio": "0.10%",
+    "exit_load": "A fee payable to a mutual fund house for exiting a fund (fully or partially) before the completion of a specified period from the date of investment."
+  },
+  "Axis Small Cap Fund": {
+    "fund_name": "Axis Small Cap Fund",
+    "fund_code": "axis-small-cap-fund-direct-growth",
+    "source": "groww.in",
+    "source_url": "https://groww.in/mutual-funds/axis-small-cap-fund-direct-growth",
+    "csv_reference": "sources.csv:Axis Small Cap Fund",
+    "last_updated": "2026-03-17T17:58:23.055429",
+    "nav": null,
+    "min_sip": null,
+    "expense_ratio": "0.61%",
+    "exit_load": "A fee payable to a mutual fund house for exiting a fund (fully or partially) before the completion of a specified period from the date of investment."
+  },
+  "_metadata": {
+    "source": "groww.in",
+    "scraped_at": "2026-03-17T17:58:29.447703",
+    "total_funds": 4
+  }
+}

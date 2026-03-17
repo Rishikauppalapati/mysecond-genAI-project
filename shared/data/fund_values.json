@@ -1,0 +1,34 @@
+{
+  "Axis Large Cap Fund": {
+    "NAV": "65.17",
+    "NAV_Date": "16 Mar 2026",
+    "MIN_SIP": "100",
+    "expense_ratio": "0.74%",
+    "exit_load": "If redeemed/switched-out within 12 months: For 10% of investments - Nil. For remaining - 1%. After 12 months - NIL.",
+    "last_updated": "17 Mar 2026 12:00:00"
+  },
+  "Axis Small Cap Fund": {
+    "NAV": "111.30",
+    "NAV_Date": "16 Mar 2026",
+    "MIN_SIP": "100",
+    "expense_ratio": "0.61%",
+    "exit_load": "If redeemed/switched-out within 12 months: For 10% of investments - Nil. For remaining - 1%. After 12 months - NIL.",
+    "last_updated": "17 Mar 2026 12:00:00"
+  },
+  "Axis Nifty 500 Index Fund": {
+    "NAV": "9.42",
+    "NAV_Date": "16 Mar 2026",
+    "MIN_SIP": "100",
+    "expense_ratio": "0.10%",
+    "exit_load": "If redeemed/switched-out within 12 months: For 10% of investments - Nil. For remaining - 1%. After 12 months - NIL.",
+    "last_updated": "17 Mar 2026 12:00:00"
+  },
+  "Axis ELSS Tax Saver": {
+    "NAV": "100.40",
+    "NAV_Date": "16 Mar 2026",
+    "MIN_SIP": "500",
+    "expense_ratio": "0.84%",
+    "exit_load": "If redeemed/switched-out within 12 months: For 10% of investments - Nil. For remaining - 1%. After 12 months - NIL.",
+    "last_updated": "17 Mar 2026 12:00:00"
+  }
+}
