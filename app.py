@@ -361,12 +361,8 @@ def process_query(query: str, backend, csv_manager, docs, fund_data) -> list:
                             'hide_last_updated': True
                         })
                 else:
-                    # Multiple documents - list format with clickable links
-                    answer_lines = [f"{fund}:", ""]
-                    for doc_type in doc_types:
-                        url = docs.get(fund, {}).get(doc_type, "")
-                        if url and url.startswith("http"):
-                            answer_lines.append(f"{doc_type}: 🔗 View Source on AxisMF.com ↗")
+                    # Multiple documents - just show fund name, links will be displayed below
+                    answer_text = f"{fund}:"
                     
                     # Store all document URLs for the response
                     doc_urls = {}
@@ -376,12 +372,12 @@ def process_query(query: str, backend, csv_manager, docs, fund_data) -> list:
                             doc_urls[doc_type] = url
                     
                     responses.append({
-                        'answer': "\n".join(answer_lines),
+                        'answer': answer_text,
                         'source_url': None,
                         'source_name': None,
                         'fund': fund,
                         'hide_last_updated': True,
-                        'doc_urls': doc_urls  # Store multiple URLs
+                        'doc_urls': doc_urls  # Store multiple URLs for display below
                     })
         return responses
     
