@@ -169,10 +169,10 @@ def load_css():
     }
     .stTextInput > div > div > input::placeholder {color: #8888a8 !important;}
     
-    /* Expander - White background for Fund Documents */
-    .streamlit-expanderHeader {font-size: 0.9rem !important; font-weight: 600 !important; color: #333333 !important; background: #ffffff !important; border-radius: 8px !important; border: 1px solid #e0e0e0 !important;}
-    .streamlit-expanderContent {background: #ffffff !important; border: 1px solid #e0e0e0 !important; border-top: none !important; border-radius: 0 0 8px 8px !important;}
-    .streamlit-expanderHeader:hover {background: #f5f5f5 !important;}
+    /* Expander - Light gray background for Fund Documents */
+    .streamlit-expanderHeader {font-size: 0.9rem !important; font-weight: 600 !important; color: #4a4a6a !important; background: #d0d0e0 !important; border-radius: 8px !important; border: 1px solid #b0b0c0 !important;}
+    .streamlit-expanderContent {background: #e8e8f0 !important; border: 1px solid #b0b0c0 !important; border-top: none !important; border-radius: 0 0 8px 8px !important;}
+    .streamlit-expanderHeader:hover {background: #c0c0d0 !important;}
     
     /* Divider - Dark */
     hr {border-color: #3a3a5c !important;}
@@ -567,12 +567,12 @@ def main():
     
     # Available Funds
     tags_html = "".join([f'<span class="fund-tag">{f}</span>' for f in ALL_FUNDS])
-    st.markdown(f'<div class="funds-box"><h4 style="color: #00d4ff;">📋 Available Funds</h4><p style="color:#a0e7ff;font-size:0.85rem;margin:0 0 0.5rem 0;">Get instant answers about NAV, Expense Ratio, Minimum SIP, Risk Level, and Benchmark.</p><div class="fund-tags">{tags_html}</div></div>', unsafe_allow_html=True)
+    st.markdown(f'<div class="funds-box"><h4 style="color: #ff6b9d;">📋 Available Funds</h4><p style="color:#ffb8d0;font-size:0.85rem;margin:0 0 0.5rem 0;">Get instant answers about NAV, Expense Ratio, Minimum SIP, Risk Level, and Benchmark.</p><div class="fund-tags">{tags_html}</div></div>', unsafe_allow_html=True)
     
     # Fund Documents - Dropdown style
     with st.expander("📄 Fund Documents"):
         for fund, links in docs.items():
-            st.markdown(f'<p style="color: #333333; font-weight: 700; font-size: 1.1rem; margin: 1.5rem 0 0.75rem 0;">{fund}</p>', unsafe_allow_html=True)
+            st.markdown(f'<p style="color: #4a4a6a; font-weight: 700; font-size: 1.1rem; margin: 1.5rem 0 0.75rem 0;">{fund}</p>', unsafe_allow_html=True)
             cols = st.columns(3)
             for i, (doc_type, icon) in enumerate([("KIM", "📄"), ("SID", "📋"), ("Leaflet", "📑")]):
                 with cols[i]:
@@ -600,7 +600,7 @@ def main():
     st.markdown('</div>', unsafe_allow_html=True)
     
     # Chat Section
-    st.markdown('<h4 style="margin: 1.5rem 0 1rem 0; color: #00d4ff;">💬 Chat with FundWise AI</h4>', unsafe_allow_html=True)
+    st.markdown('<h4 style="margin: 1.5rem 0 1rem 0; color: #ff6b9d;">💬 Chat with FundWise AI</h4>', unsafe_allow_html=True)
     
     # Messages
     for msg in st.session_state.chat_history:
